@@ -1,0 +1,9 @@
+.section-benefits{
+  background: url(../../images/section-benefits/section-benefits-background.jpg) no-repeat;
+  background-size: cover;
+}
+
+.section-benefits__title{
+  flex-basis: 100%;
+  text-transform: uppercase;
+}

@@ -1,0 +1,8 @@
+.section-features{
+  background: url(../../images/section-features/section-features-background.jpg) no-repeat;
+  background-size: cover;
+}
+
+.section-features__item{
+  padding: 10px;
+}
