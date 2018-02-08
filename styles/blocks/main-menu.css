@@ -1,11 +1,26 @@
 .main-menu{
   display: flex;
   background-color: #f5c506;
+  box-shadow: -5px -5px 0 #9e8415, -10px -10px 0px #806f24;
 }
 
 .main-menu__tab{
 	display: block;
 	padding: 15px;
+  color: #a78708;
 	text-decoration: none;
   text-transform: uppercase;
+}
+
+.main-menu__tab__about-us-icon:before {
+  content: "\e904";
+  color: #b99403;
+}
+.main-menu__tab__services-icon:before {
+  content: "\e905";
+  color: #b99403;
+}
+.main-menu__tab__contact-icon:before {
+  content: "\e906";
+  color: #b99403;
 }

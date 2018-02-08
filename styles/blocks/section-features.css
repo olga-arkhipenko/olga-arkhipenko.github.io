@@ -4,5 +4,23 @@
 }
 
 .section-features__item{
-  padding: 10px;
+  display: block;
+  flex-grow: 1;
+  color: #000;
+  text-align: center;
+	text-decoration: none;
+  text-transform: uppercase;
+}
+
+.section-features__item__design-icon:before {
+  content: "\e901";
+  color: #f5c506;
+}
+.section-features__item__custom-icon:before {
+  content: "\e902";
+  color: #f5c506;
+}
+.section-features__item__free-icon:before {
+  content: "\e903";
+  color: #f5c506;
 }
