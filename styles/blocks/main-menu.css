@@ -1,26 +1,31 @@
+@font-face {
+  font-family: 'Segoe WP N';
+  src: local('Segoe WP N'), url('../../fonts/Segoe/SegoeWPN.woff') format('woff');
+  font-style: normal;
+  font-weight: normal;
+}
+
 .main-menu{
   display: flex;
   background-color: #f5c506;
-  box-shadow: -5px -5px 0 #9e8415, -10px -10px 0px #806f24;
+  margin: auto 0;
+  box-shadow: -4px -4px 0 #9e8415, -8px -8px 0px #806f24;
 }
 
-.main-menu__tab{
-	display: block;
-	padding: 15px;
+.main-menu__tab {
+  padding: 12px 22px 12px 20px;
+  border-left: 1px solid #dcb105;
+  font-size: 1.1em;
+}
+
+.main-menu__tab:first-child {
+  padding-left: 30px;
+  border-right: none;
+}
+
+.main-menu__tab-name {
+  font-family: 'Segoe WP N', sans-serif;
   color: #a78708;
-	text-decoration: none;
+  font-weight: 500;
   text-transform: uppercase;
-}
-
-.main-menu__tab__about-us-icon:before {
-  content: "\e904";
-  color: #b99403;
-}
-.main-menu__tab__services-icon:before {
-  content: "\e905";
-  color: #b99403;
-}
-.main-menu__tab__contact-icon:before {
-  content: "\e906";
-  color: #b99403;
 }

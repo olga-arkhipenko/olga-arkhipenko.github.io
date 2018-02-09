@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'PTSans Regular';
+  src: local('PTSans Regular'), url('../../fonts/PTSans Regular/PTSans Regular.tff') format('tff');
+  font-style: normal;
+  font-weight: normal;
+}
+
 .section-benefits{
   background: url(../../images/section-benefits/section-benefits-background.jpg) no-repeat;
   background-size: cover;
@@ -5,10 +12,15 @@
 
 .section-benefits__title{
   flex-basis: 100%;
+  text-align: center;
+  font-family: 'PTSans Regular', sans-serif;
+  font-size: 2.5em;
+  color: #f5c506;
   text-transform: uppercase;
 }
 
-.section-benefits__item__dit-icon:before {
-  content: "\e900";
-  color: #f5c506;
+.section-benefits__item {
+  font-family: 'PTSans Regular', 'Open Sans', sans-serif;
+  font-size: 1.1em;
+  color: #7a7a79;
 }

@@ -1,3 +1,16 @@
+@font-face {
+  font-family: 'SegoeWP';
+  src: local('SegoeWP'), url('../../fonts/Segoe/SegoeWP.woff') format('woff');
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'PTSans Regular';
+  src: local('PTSans Regular'), url('../../fonts/PTSans Regular/PTSans Regular.tff') format('tff');
+  font-style: normal;
+  font-weight: normal;
+}
+
 .section-about-us{
   background: url(../../images/section-about-us/section-about-us-background.jpg) no-repeat;
   background-size: cover;
@@ -5,19 +18,24 @@
 
 .section-about-us__title{
   flex-basis: 100%;
+  font-family: 'PTSans Regular', sans-serif;
+  font-size: 2.3em;
+  color: #fff;
   text-transform: uppercase;
 }
-
-/* .section-about-us__item{
-  background-color: #ec9e03;
-  flex-basis: 340px;
-} */
 
 .section-about-us__video{
   display: inline-flex;
   flex-basis: 655px;
   background-color: #ec9e03;
 }
+
+.section-about-us__video-description, .section-about-us__social {
+  font-family: 'SegoeWP', sans-serif;
+  font-size: 1.7em;
+  color: #fff;
+}
+
 
 .section-about-us__social{
   flex-basis: 350px;

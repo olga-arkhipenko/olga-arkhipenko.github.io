@@ -1,5 +1,19 @@
+@font-face {
+  font-family: 'Asap Regular';
+  src: local('Asap Regular'), url('../../fonts/Asap Regular/Asap Regular.otf') format('otf');
+  font-style: normal;
+  font-weight: normal;
+}
+
 /* .header-banner{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 } */
+
+.header-banner__title {
+  font-family: 'Asap Regular', sans-serif;
+  font-size: 3em;
+  color: #fff;
+  text-align: center;
+}

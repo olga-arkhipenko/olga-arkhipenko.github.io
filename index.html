@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="./styles/reset/reset.css">
   <link rel="stylesheet" href="./styles/blocks/container.css">
+  <link rel="stylesheet" href="./styles/blocks/link.css">
   <link rel="stylesheet" href="./styles/blocks/primary-logo.css">
   <link rel="stylesheet" href="./styles/blocks/header.css">
   <link rel="stylesheet" href="./styles/blocks/header-navigation.css">
@@ -15,48 +16,46 @@
   <link rel="stylesheet" href="./styles/blocks/section-about-us.css">
   <link rel="stylesheet" href="./styles/blocks/section-benefits.css">
   <link rel="stylesheet" href="./styles/blocks/footer.css">
+  <link rel="stylesheet" href="./styles/icons/icons.css">
   <title>THEYALOW</title>
 </head>
 <body>
   <header class="header">
-    <!-- <div class="header-navigation"> -->
-      <div class="container">
-        <div class="primary-logo">
-          <img src="./images/primary-logo.png" alt="THEYALOW logo">
-          <span>THEYALOW</span>
-        </div>
-        <nav>
-          <ul class="main-menu">
-            <li>
-              <a href="#" class="main-menu__tab">
-                <span class="main-menu__tab__about-us-icon"></span>
-                about us
-              </a>
-            </li>
-            <li>
-              <a href="#" class="main-menu__tab">
-                <span class="main-menu__tab__services-icon"></span>
-                services
-              </a>
-            </li>
-            <li>
-              <a href="#" class="main-menu__tab">
-                <span class="main-menu__tab__contact-icon"></span>
-                contact
-              </a>
-            </li>
-          </ul>
-        </nav>
+    <div class="container">
+      <div class="primary-logo">
+        <img src="./images/primary-logo.png" alt="THEYALOW logo">
+        <span class="primary-logo__name">THEYALOW</span>
+        <span class="primary-logo__author">Craft By Css author.com</span>
       </div>
-    <!-- </div> -->
+      <ul class="main-menu">
+        <li class="main-menu__tab">
+          <a href="#" class="link">
+            <span class="icon-about-us"></span>
+            <span class="main-menu__tab-name">about us</span>
+          </a>
+        </li>
+        <li class="main-menu__tab">
+          <a href="#" class="link">
+            <span class="icon-services"></span>
+            <span class="main-menu__tab-name">services</span>
+          </a>
+        </li>
+        <li class="main-menu__tab">
+          <a href="#" class="link">
+            <span class="icon-contact"></span>
+            <span class="main-menu__tab-name">contact</span>
+          </a>
+        </li>
+      </ul>
+    </div>
     <div class="header-banner">
       <div class="container">
         <div class="header-banner__player">
           <img src="./images/header/player.jpg" alt="Video player">
         </div>
         <div  class="header-banner__title">
-          <h1>THE COOL</h1>
-          <h1>THE MINIMAL</h1>
+          <p>THE COOL</p>
+          <p>THE MINIMAL</p>
         </div>
       </div>
     </div>
@@ -65,18 +64,24 @@
   <main>
     <section class="section-features">
       <div class="container">
-        <a href="#" class="section-features__item">
-          <span class="section-features__item__design-icon"></span>
-          <h4>better design</h4>
-        </a>
-        <a href="#" class="section-features__item">
-          <span class="section-features__item__custom-icon"></span>
-          <h4>customise</h4>
-        </a>
-        <a href="#" class="section-features__item">
-          <span class="section-features__item__free-icon"></span>
-          <h4>it's free</h4>
-        </a>
+        <div class="section-features__item">
+          <a href="#" class="link">
+            <span class="icon-design"></span>
+            <h4 class="section-features__name">better design</h4>
+          </a>
+        </div>
+        <div class="section-features__item">
+          <a href="#" class="link">
+            <span class="icon-custom"></span>
+            <h4 class="section-features__name">customise</h4>
+          </a>
+        </div>
+        <div class="section-features__item">
+          <a href="#" class="link">
+            <span class="icon-free"></span>
+            <h4 class="section-features__name">it's free</h4>
+          </a>
+        </div>
       </div>
     </section>
 
@@ -84,37 +89,38 @@
       <div class="container">
         <h3 class="section-about-us__title">Lorem ipsum dolor sit amet</h3>
         <div class="section-about-us__video">
-          <p class="section-about-us__video__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut</p>
-          <div class="section-about-us__video__player">
+          <p class="section-about-us__video-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut</p>
+          <div class="section-about-us__video-player">
             <img src="./images/section-about-us/player.jpg" alt="Video player">
           </div>
         </div>
         <div class="section-about-us__social">
-          Lorem ipsum dolor sit amet
+          <p>22</p>
+          <span class="icon-twitter"></span>
         </div>
       </div>
     </section>
-    <section class="section-benefits">
 
+    <section class="section-benefits">
       <div class="container">
         <h2 class="section-benefits__title">Lorem ipsum dolor sit amet</h2>
         <img src="./images/section-benefits/devices.png" alt="Devices and sales">
         <ul>
           <li>
-            <span class="section-benefits__item__dit-icon"></span>
-            Sed ut perspiciatis unde omnis copy
+            <span class="icon-dot"></span>
+            <span class="section-benefits__item">Sed ut perspiciatis unde omnis copy</span>
           </li>
           <li>
-            <span class="section-benefits__item__dit-icon"></span>
-            Lorem ipsum dolor sit amet, consectetur adipisicing
+            <span class="icon-dot"></span>
+            <span class="section-benefits__item">Lorem ipsum dolor sit amet, consectetur adipisicing</span>
           </li>
           <li>
-            <span class="section-benefits__item__dit-icon"></span>
-            Sed ut perspiciatis unde omnis copy
+            <span class="icon-dot"></span>
+            <span class="section-benefits__item">Sed ut perspiciatis unde omnis copy</span>
           </li>
           <li>
-            <span class="section-benefits__item__dit-icon"></span>
-            Lorem ipsum dolor sit amet, consectetur adipisicing
+            <span class="icon-dot"></span>
+            <span  class="section-benefits__item">Lorem ipsum dolor sit amet, consectetur adipisicing</span>
           </li>
         </ul>
       </div>
@@ -124,7 +130,7 @@
   <footer class="footer">
     <div class="primary-logo">
       <img src="./images/primary-logo.png" alt="THEYALOW logo">
-      <span>THEYALOW</span>
+      <span class="primary-logo__name">THEYALOW</span>
     </div>
   </footer>
 </body>

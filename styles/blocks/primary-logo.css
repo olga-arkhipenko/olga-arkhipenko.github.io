@@ -1,0 +1,31 @@
+@font-face {
+  font-family: 'Lucida Sans Italic';
+  src: local('Lucida Sans Italic'), url('../../fonts/Lucida Sans Italic/Lucida Sans Italic.tff') format('tff');
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'LaoUI';
+  src: local('LaoUI'), url('../../fonts/LaoUI/LaoUI.tff') format('tff');
+  font-style: normal;
+  font-weight: normal;
+}
+
+.primary-logo {
+
+}
+
+.primary-logo__name {
+  font-family: 'Lucida Sans Italic', sans-serif;
+  font-style: italic;
+  font-size: 2.5em;
+  color: #fff;
+}
+
+.primary-logo__author {
+  font-family: 'LaoUI', sans-serif;
+  font-size: .7em;
+  color: #fff;
+  text-transform: uppercase;
+}
