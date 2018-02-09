@@ -5,11 +5,13 @@
   font-weight: normal;
 }
 
-/* .header-banner{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-} */
+.header-banner{
+  padding: 25px 0 70px;
+}
+
+.header-banner__player {
+  padding-left: 10px;
+}
 
 .header-banner__title {
   font-family: 'Asap Regular', sans-serif;

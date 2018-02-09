@@ -16,6 +16,10 @@
 
 }
 
+.primary-logo__img {
+  vertical-align: middle;
+}
+
 .primary-logo__name {
   font-family: 'Lucida Sans Italic', sans-serif;
   font-style: italic;

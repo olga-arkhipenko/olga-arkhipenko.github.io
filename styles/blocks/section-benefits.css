@@ -12,11 +12,15 @@
 
 .section-benefits__title{
   flex-basis: 100%;
+  margin: 45px 0 10px;
   text-align: center;
   font-family: 'PTSans Regular', sans-serif;
   font-size: 2.5em;
   color: #f5c506;
   text-transform: uppercase;
+}
+.section-benefits__items-list {
+
 }
 
 .section-benefits__item {

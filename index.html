@@ -21,32 +21,35 @@
 </head>
 <body>
   <header class="header">
-    <div class="container">
-      <div class="primary-logo">
-        <img src="./images/primary-logo.png" alt="THEYALOW logo">
-        <span class="primary-logo__name">THEYALOW</span>
-        <span class="primary-logo__author">Craft By Css author.com</span>
+    <div class="header-navigation">
+      <div class="container">
+        <div class="primary-logo">
+          <img src="./images/primary-logo.png" class="primary-logo__img" alt="THEYALOW logo">
+          <span class="primary-logo__name">THEYALOW</span>
+          <span class="primary-logo__author">Craft By Css author.com</span>
+        </div>
+
+        <ul class="main-menu">
+          <li class="main-menu__tab">
+            <a href="#" class="link">
+              <span class="icon-about-us"></span>
+              <span class="main-menu__tab-name">about us</span>
+            </a>
+          </li>
+          <li class="main-menu__tab">
+            <a href="#" class="link">
+              <span class="icon-services"></span>
+              <span class="main-menu__tab-name">services</span>
+            </a>
+          </li>
+          <li class="main-menu__tab">
+            <a href="#" class="link">
+              <span class="icon-contact"></span>
+              <span class="main-menu__tab-name">contact</span>
+            </a>
+          </li>
+        </ul>
       </div>
-      <ul class="main-menu">
-        <li class="main-menu__tab">
-          <a href="#" class="link">
-            <span class="icon-about-us"></span>
-            <span class="main-menu__tab-name">about us</span>
-          </a>
-        </li>
-        <li class="main-menu__tab">
-          <a href="#" class="link">
-            <span class="icon-services"></span>
-            <span class="main-menu__tab-name">services</span>
-          </a>
-        </li>
-        <li class="main-menu__tab">
-          <a href="#" class="link">
-            <span class="icon-contact"></span>
-            <span class="main-menu__tab-name">contact</span>
-          </a>
-        </li>
-      </ul>
     </div>
     <div class="header-banner">
       <div class="container">
@@ -89,14 +92,18 @@
       <div class="container">
         <h3 class="section-about-us__title">Lorem ipsum dolor sit amet</h3>
         <div class="section-about-us__video">
-          <p class="section-about-us__video-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut</p>
+          <p class="section-about-us__video-description">
+            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut</span>
+            <span class="section-about-us__social-plus icon-plus"></span>
+          </p>
           <div class="section-about-us__video-player">
             <img src="./images/section-about-us/player.jpg" alt="Video player">
           </div>
         </div>
         <div class="section-about-us__social">
-          <p>22</p>
-          <span class="icon-twitter"></span>
+          <p class="section-about-us__social-count">22</p>
+          <p class="section-about-us__social-twitter icon-twitter"></p>
+          <span class="section-about-us__social-plus icon-plus"></span>
         </div>
       </div>
     </section>
@@ -105,7 +112,7 @@
       <div class="container">
         <h2 class="section-benefits__title">Lorem ipsum dolor sit amet</h2>
         <img src="./images/section-benefits/devices.png" alt="Devices and sales">
-        <ul>
+        <ul class="section-benefits__items-list">
           <li>
             <span class="icon-dot"></span>
             <span class="section-benefits__item">Sed ut perspiciatis unde omnis copy</span>
