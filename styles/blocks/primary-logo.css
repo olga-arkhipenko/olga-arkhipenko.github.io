@@ -13,11 +13,8 @@
 }
 
 .primary-logo {
-
-}
-
-.primary-logo__img {
-  vertical-align: middle;
+  display: inline-flex;
+  align-items: center;
 }
 
 .primary-logo__name {
@@ -29,7 +26,7 @@
 
 .primary-logo__author {
   font-family: 'LaoUI', sans-serif;
-  font-size: .7em;
+  font-size: .3em;
   color: #fff;
   text-transform: uppercase;
 }

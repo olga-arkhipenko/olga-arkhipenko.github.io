@@ -5,9 +5,11 @@
   font-weight: normal;
 }
 
-.section-features{
+.section-features {
+  position: relative;
   background: url(../../images/section-features/section-features-background.jpg) no-repeat;
   background-size: cover;
+  box-shadow: 0px 1px 4px #ad9225, 0 -1px 4px #46361b;
 }
 
 .section-features__item {
@@ -20,9 +22,9 @@
 }
 
 .section-features__item:nth-child(odd) {
-    border-left: 1px solid #d1d1d1;
-    border-right: 1px solid #d1d1d1;
-  }
+  border-left: 1px solid #d1d1d1;
+  border-right: 1px solid #d1d1d1;
+}
 
 .section-features__name {
   margin: 15px 0 35px;

@@ -46,6 +46,8 @@
 }
 
 .section-about-us__social {
+  display: flex;
+  align-items: center;
   flex-basis: 330px;
   position: relative;
   max-height: 232px;
@@ -60,8 +62,9 @@
 }
 
 .section-about-us__social-twitter {
-    font-size: 28px;
-  /* padding: 18%; */
+  flex-basis: 100%;
+  text-align: center;
+  font-size: 5em;
 }
 
 .section-about-us__social-plus {
