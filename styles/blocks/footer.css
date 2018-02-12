@@ -1,5 +1,14 @@
-.footer{
+.footer {
+  padding: 4px 0 10px;
   background-color: #4c4c4c;
   text-align: center;
   box-shadow: 0 -4px 7px #1a1a1a;
+}
+
+.footer__logo-img {
+  width: 20%;
+}
+
+.footer__logo-name {
+  font-size: 1.8em;
 }

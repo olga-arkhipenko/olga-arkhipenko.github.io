@@ -1,6 +1,6 @@
 @font-face {
-  font-family: 'Asap-Regular';
-  src: url('../../fonts/Asap/Asap-Regular.ttf') format('ttf');
+  font-family: 'Asap Regular';
+  src:  local('Asap Regular'), url('../../fonts/Asap Regular/Asap Regular.otf') format('otf');
   font-style: normal;
   font-weight: normal;
 }
@@ -14,8 +14,14 @@
 }
 
 .header-banner__title {
-  font-family: 'Asap-Regular', sans-serif;
-  font-size: 3em;
+  margin: 76px 30px 0;
+  font-family: 'Asap Regular', sans-serif;
+  font-size: 3.7em;
+  line-height: 1.3em;
   color: #fff;
   text-align: center;
+}
+
+.header-banner__title--yellow {
+  color: #f5c506;
 }
