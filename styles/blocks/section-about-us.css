@@ -1,75 +1,75 @@
 @font-face {
-  font-family: 'SegoeWP';
-  src: local('SegoeWP'), url('../../fonts/Segoe/SegoeWP.woff') format('woff');
-  font-style: normal;
-  font-weight: normal;
+    font-family: 'SegoeWP';
+    src: local('SegoeWP'), url('../../fonts/Segoe/SegoeWP.woff') format('woff');
+    font-style: normal;
+    font-weight: normal;
 }
 @font-face {
-  font-family: 'Asap Regular';
-  src:  local('Asap Regular'), url('../../fonts/Asap Regular/Asap Regular.otf') format('opentype');
-  font-style: normal;
-  font-weight: normal;
+    font-family: 'Asap Regular';
+    src: local('Asap Regular'), url('../../fonts/Asap Regular/Asap Regular.otf') format('opentype');
+    font-style: normal;
+    font-weight: normal;
 }
 
 .section-about-us{
-  padding: 18px 0 165px;
-  background: url(../../images/section-about-us/section-about-us-background.jpg) no-repeat;
-  background-size: cover;
+    padding: 18px 0 165px;
+    background: url(../../images/section-about-us/section-about-us-background.jpg) no-repeat;
+    background-size: cover;
 }
 
 .section-about-us__title{
-  flex-basis: 100%;
-  margin: 20px 0 36px;
-  font-family: 'Asap Regular', sans-serif;
-  font-size: 2.2em;
-  color: #fff;
-  text-transform: uppercase;
+    flex-basis: 100%;
+    margin: 20px 0 36px;
+    font-family: 'Asap Regular', sans-serif;
+    font-size: 2.2em;
+    color: #fff;
+    text-transform: uppercase;
 }
 
 .section-about-us__video {
-  display: inline-flex;
-  flex-basis: 655px;
-  max-height: 232px;
-  background-color: #ec9e03;
+    display: inline-flex;
+    flex-basis: 655px;
+    max-height: 232px;
+    background-color: #ec9e03;
 }
 
 .section-about-us__video-description, .section-about-us__social {
-  font-family: 'SegoeWP', sans-serif;
-  font-size: 1.7em;
-  color: #fff;
+    font-family: 'SegoeWP', sans-serif;
+    font-size: 1.7em;
+    color: #fff;
 }
 
 .section-about-us__video-description {
-  position: relative;
-  padding: 20px 10px 0 30px;
-  line-height: 38px;
+    position: relative;
+    padding: 20px 10px 0 30px;
+    line-height: 38px;
 }
 
 .section-about-us__social {
-  display: flex;
-  align-items: center;
-  flex-basis: 330px;
-  position: relative;
-  max-height: 232px;
-  text-align: center;
-  background-color: #ec9e03;
+    display: flex;
+    align-items: center;
+    flex-basis: 330px;
+    position: relative;
+    max-height: 232px;
+    text-align: center;
+    background-color: #ec9e03;
 }
 
 .section-about-us__social-count {
-  position: absolute;
-  top: 6%;
-  left: 86%;
+    position: absolute;
+    top: 6%;
+    left: 86%;
 }
 
 .section-about-us__social-twitter {
-  flex-basis: 100%;
-  text-align: center;
-  font-size: 5em;
+    flex-basis: 100%;
+    text-align: center;
+    font-size: 5em;
 }
 
 .section-about-us__social-plus {
-  position: absolute;
-  bottom: 13px;
-  right: 10px;
-  font-size: 10px;
+    position: absolute;
+    bottom: 13px;
+    right: 10px;
+    font-size: 10px;
 }

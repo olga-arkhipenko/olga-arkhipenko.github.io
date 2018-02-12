@@ -1,48 +1,48 @@
 @font-face {
-  font-family: 'Open Sans';
-  src: local('Open Sans'), url('../../fonts/OpenSans Regular/OpenSans-Regular.ttf') format('truetype');
-  font-style: normal;
-  font-weight: normal;
+    font-family: 'Open Sans';
+    src: local('Open Sans'), url('../../fonts/OpenSans Regular/OpenSans-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
 }
 
 @font-face {
-  font-family: 'Asap Regular';
-  src:  local('Asap Regular'), url('../../fonts/Asap Regular/Asap Regular.otf') format('opentype');
-  font-style: normal;
-  font-weight: normal;
+    font-family: 'Asap Regular';
+    src: local('Asap Regular'), url('../../fonts/Asap Regular/Asap Regular.otf') format('opentype');
+    font-style: normal;
+    font-weight: normal;
 }
 
 .section-benefits{
-  padding: 45px 0 80px;
-  background: url(../../images/section-benefits/section-benefits-background.jpg) no-repeat;
-  background-size: cover;
+    padding: 45px 0 80px;
+    background: url(../../images/section-benefits/section-benefits-background.jpg) no-repeat;
+    background-size: cover;
 }
 
 .section-benefits__title{
-  flex-basis: 100%;
-  margin-bottom: 10px;
-  text-align: center;
-  font-family: 'Asap Regular', sans-serif;
-  font-size: 2.5em;
-  color: #f5c506;
-  text-transform: uppercase;
+    flex-basis: 100%;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: 'Asap Regular', sans-serif;
+    font-size: 2.5em;
+    color: #f5c506;
+    text-transform: uppercase;
 }
 
 .section-benefits__img {
-  height: 100%;
+    height: 100%;
 }
 
 .section-benefits__items-list {
-  flex-basis: 360px;
-  padding-top: 90px;
-  word-wrap: break-word;
+    flex-basis: 360px;
+    padding-top: 90px;
+    word-wrap: break-word;
 }
 
 .section-benefits__item {
-  padding: 0px 0 25px 0px;
-  padding-left: 10px;
-  list-style-image: url(../../images/section-benefits/dot.png);
-  font-family: 'Open Sans', sans-serif;
-  font-size: 1.4em;
-  color: #a9a9a7;
+    padding: 0px 0 25px 0px;
+    padding-left: 10px;
+    list-style-image: url(../../images/section-benefits/dot.png);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.4em;
+    color: #a9a9a7;
 }

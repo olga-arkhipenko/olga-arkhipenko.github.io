@@ -1,31 +1,31 @@
 @font-face {
-  font-family: 'Segoe WP N';
-  src: local('Segoe WP N'), url('../../fonts/Segoe/SegoeWPN.woff') format('woff');
-  font-style: normal;
-  font-weight: normal;
+    font-family: 'Segoe WP N';
+    src: local('Segoe WP N'), url('../../fonts/Segoe/SegoeWPN.woff') format('woff');
+    font-style: normal;
+    font-weight: normal;
 }
 
 .main-menu{
-  display: flex;
-  margin-top: 40px;
-  background-color: #f5c506;
-  box-shadow: -4px -4px 0 #9e8415, -8px -8px 0px #806f24;
+    display: flex;
+    margin-top: 40px;
+    background-color: #f5c506;
+    box-shadow: -4px -4px 0 #9e8415, -8px -8px 0px #806f24;
 }
 
 .main-menu__tab {
-  padding: 12px 22px 12px 20px;
-  border-left: 1px solid #dcb105;
-  font-size: 1.1em;
+    padding: 12px 22px 12px 20px;
+    border-left: 1px solid #dcb105;
+    font-size: 1.1em;
 }
 
 .main-menu__tab:first-child {
-  padding-left: 35px;
-  border-right: none;
+    padding-left: 35px;
+    border-right: none;
 }
 
 .main-menu__tab-name {
-  font-family: 'Segoe WP N', sans-serif;
-  color: #a78708;
-  font-weight: 500;
-  text-transform: uppercase;
+    font-family: 'Segoe WP N', sans-serif;
+    color: #a78708;
+    font-weight: 500;
+    text-transform: uppercase;
 }
