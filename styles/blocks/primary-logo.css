@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Lucida Sans Italic';
-  src: local('Lucida Sans Italic'), url('../../fonts/Lucida Sans Italic/Lucida Sans Italic.tff') format('tff');
+  src: local('Lucida Sans Italic'), url('../../fonts/Lucida Sans Italic/Lucida Sans Italic.tff') format('truetype');
   font-style: normal;
   font-weight: normal;
 }

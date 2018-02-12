@@ -5,23 +5,23 @@
   font-weight: normal;
 }
 @font-face {
-  font-family: 'PTSans Regular';
-  src: local('PTSans Regular'), url('../../fonts/PTSans Regular/PTSans Regular.tff') format('tff');
+  font-family: 'Asap Regular';
+  src:  local('Asap Regular'), url('../../fonts/Asap Regular/Asap Regular.otf') format('opentype');
   font-style: normal;
   font-weight: normal;
 }
 
 .section-about-us{
-  padding: 20px 0 165px;
+  padding: 18px 0 165px;
   background: url(../../images/section-about-us/section-about-us-background.jpg) no-repeat;
   background-size: cover;
 }
 
 .section-about-us__title{
   flex-basis: 100%;
-  margin: 20px 0 34px;
-  font-family: 'PTSans Regular', sans-serif;
-  font-size: 2.3em;
+  margin: 20px 0 36px;
+  font-family: 'Asap Regular', sans-serif;
+  font-size: 2.2em;
   color: #fff;
   text-transform: uppercase;
 }

@@ -1,12 +1,19 @@
 @font-face {
-  font-family: 'PTSans Regular';
-  src: local('PTSans Regular'), url('../../fonts/PTSans Regular/PTSans Regular.tff') format('tff');
+  font-family: 'Open Sans';
+  src: local('Open Sans'), url('../../fonts/OpenSans Regular/OpenSans-Regular.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Asap Regular';
+  src:  local('Asap Regular'), url('../../fonts/Asap Regular/Asap Regular.otf') format('opentype');
   font-style: normal;
   font-weight: normal;
 }
 
 .section-benefits{
-  padding: 45px 0 105px;
+  padding: 45px 0 80px;
   background: url(../../images/section-benefits/section-benefits-background.jpg) no-repeat;
   background-size: cover;
 }
@@ -15,27 +22,32 @@
   flex-basis: 100%;
   margin-bottom: 10px;
   text-align: center;
-  font-family: 'PTSans Regular', sans-serif;
+  font-family: 'Asap Regular', sans-serif;
   font-size: 2.5em;
   color: #f5c506;
   text-transform: uppercase;
 }
+
+.section-benefits__img {
+  height: 100%;
+}
+
 .section-benefits__items-list {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  flex-basis: 380px;
+  flex-basis: 360px;
   padding-top: 90px;
   word-wrap: break-word;
 }
 
 .section-benefits__item {
-  text-indent: -1em;
-  font-family: 'PTSans Regular', 'Open Sans', sans-serif;
+  /* text-indent: -1em; */
+  padding: 0px 0 25px 0px;
+  padding-left: 10px;
+  list-style-image: url(../../images/section-benefits/dot.png);
+  font-family: 'Open Sans', sans-serif;
   font-size: 1.4em;
-  color: #7a7a79;
+  color: #a9a9a7;
 }
 
-.section-benefits__item-dot {
+/* .section-benefits__item-dot {
   font-size: .6em;
-}
+} */
