@@ -39,7 +39,6 @@
 }
 
 .section-benefits__item {
-  /* text-indent: -1em; */
   padding: 0px 0 25px 0px;
   padding-left: 10px;
   list-style-image: url(../../images/section-benefits/dot.png);
@@ -47,7 +46,3 @@
   font-size: 1.4em;
   color: #a9a9a7;
 }
-
-/* .section-benefits__item-dot {
-  font-size: .6em;
-} */
