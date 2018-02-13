@@ -12,13 +12,13 @@
     font-weight: normal;
 }
 
-.section-benefits{
+.section-benefits {
     padding: 45px 0 80px;
     background: url(../../images/section-benefits/section-benefits-background.jpg) no-repeat;
     background-size: cover;
 }
 
-.section-benefits__title{
+.section-benefits__title {
     flex-basis: 100%;
     margin-bottom: 10px;
     text-align: center;
@@ -33,14 +33,13 @@
 }
 
 .section-benefits__items-list {
+    word-wrap: break-word;
     flex-basis: 360px;
     padding-top: 90px;
-    word-wrap: break-word;
 }
 
 .section-benefits__item {
-    padding: 0px 0 25px 0px;
-    padding-left: 10px;
+    padding: 0 0 25px 10px;
     list-style-image: url(../../images/section-benefits/dot.png);
     font-family: 'Open Sans', sans-serif;
     font-size: 1.4em;
