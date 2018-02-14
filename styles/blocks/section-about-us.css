@@ -15,9 +15,12 @@
 
 .section-about-us {
     padding: 18px 0 165px;
-    background: linear-gradient(33deg, #f7cf32 25%, rgba(255, 255, 255, 0) 25%) 93px 15px, linear-gradient(33deg, rgba(255, 255, 255, 0) 73%, #f7cf32 75%) 36px 51px, linear-gradient(33deg, rgba(255, 255, 255, 0) 75%, #f7cf32 75%) -23px 15px, linear-gradient(33deg, #f7cf32 25%, rgba(255, 255, 255, 0) 26%) 36px -20px;
+    background: linear-gradient(33deg, rgba(247, 207, 50, 1) 25%, rgba(255, 255, 255, 0) 25%) 93px 15px,
+    linear-gradient(33deg, rgba(255, 255, 255, 0) 73%, rgba(247, 207, 50, 1) 75%) 36px 51px,
+    linear-gradient(33deg, rgba(255, 255, 255, 0) 75%, rgba(247, 207, 50, 1) 75%) -23px 15px,
+    linear-gradient(33deg, rgba(247, 207, 50, 1) 25%, rgba(255, 255, 255, 0) 26%) 36px -20px;
     background-size: 117px 72px;
-    background-color: #f7d445;
+    background-color: rgba(247, 212, 69, 1);
 }
 
 .section-about-us__title {
@@ -25,7 +28,7 @@
 
     text-transform: uppercase;
 
-    color: #ffffff;
+    color: rgba(255, 255, 255, 1);
 
     font-family: "Asap Regular", sans-serif;
     font-size: 2.2em;
@@ -38,14 +41,14 @@
 
     max-height: 232px;
 
-    background-color: #ec9e03;
+    background-color: rgba(236, 158, 3, 1);
 
     flex-basis: 655px;
 }
 
 .section-about-us__video-description,
 .section-about-us__social {
-    color: #ffffff;
+    color: rgba(255, 255, 255, 1);
 
     font-family: "SegoeWP", sans-serif;
     font-size: 1.7em;
@@ -68,7 +71,7 @@
 
     text-align: center;
 
-    background-color: #ec9e03;
+    background-color: rgba(236, 158, 3, 1);
 
     align-items: center;
     flex-basis: 330px;

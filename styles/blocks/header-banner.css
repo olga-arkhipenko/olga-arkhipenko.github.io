@@ -18,10 +18,10 @@
     font-family: 'Asap Regular', sans-serif;
     font-size: 3.9em;
     line-height: 1.25em;
-    color: #fff;
+    color: rgba(255, 255, 255, 1);
     text-align: center;
 }
 
-.header-banner__title--yellow {
-    color: #f5c506;
+.header-banner__title--primary {
+    color: rgba(245, 197, 6, 1);
 }

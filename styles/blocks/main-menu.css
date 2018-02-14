@@ -8,24 +8,24 @@
 .main-menu{
     display: flex;
     margin-top: 40px;
-    background-color: #f5c506;
-    box-shadow: -4px -4px 0 #9e8415, -8px -8px 0px #806f24;
+    background-color: rgba(245, 197, 6, 1);
+    box-shadow: -4px -4px 0 rgba(245, 197, 6, .6), -8px -8px 0px rgba(245, 197, 6, .3);
 }
 
 .main-menu__tab {
     padding: 12px 22px 12px 20px;
-    border-left: 1px solid #dcb105;
+    border-left: 1px solid rgba(220, 177, 5, 1);
     font-size: 1.1em;
 }
 
 .main-menu__tab:first-child {
     padding-left: 35px;
-    border-right: none;
+    border-left: none;
 }
 
 .main-menu__tab-name {
     font-family: 'Segoe WP N', sans-serif;
-    color: #a78708;
+    color: rgba(167, 135, 8, 1);
     font-weight: 500;
     text-transform: uppercase;
 }

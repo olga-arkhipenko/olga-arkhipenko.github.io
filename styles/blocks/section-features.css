@@ -9,7 +9,7 @@
     position: relative;
     background: url(../../images/section-features/section-features-background.jpg) no-repeat;
     background-size: cover;
-    box-shadow: 0px 1px 4px #ad9225, 0 -1px 4px #46361b;
+    box-shadow: 0px 1px 4px rgba(173, 146, 37, 1), 0 -1px 4px rgba(70, 54, 27, 1);
 }
 
 .section-features__item {
@@ -19,17 +19,17 @@
     flex-basis: 120px;
     min-height: 212px;
     text-align: center;
+    border-left: 1px solid rgba(209, 209, 209, 1);
 }
 
-.section-features__item:nth-child(odd) {
-    border-left: 1px solid #d1d1d1;
-    border-right: 1px solid #d1d1d1;
+.section-features__item:last-child {
+    border-right: 1px solid rgba(209, 209, 209, 1);
 }
 
 .section-features__name {
     margin: 15px 0 35px;
     font-family: 'SegoeWP', sans-serif;
     font-size: 1.7em;
-    color: #000;
+    color: rgba(0, 0, 0, 1);
     text-transform: uppercase;
 }

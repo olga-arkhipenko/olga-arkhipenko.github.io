@@ -1,8 +1,8 @@
 .footer {
     padding: 4px 0 10px;
-    background-color: #4c4c4c;
+    background-color: rgba(76, 76, 76, 1);
     text-align: center;
-    box-shadow: 0 -4px 7px #1a1a1a;
+    box-shadow: 0 -4px 7px rgba(26, 26, 26, 1);
 }
 
 .footer__logo-img {

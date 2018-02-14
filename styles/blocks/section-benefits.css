@@ -24,7 +24,7 @@
     text-align: center;
     font-family: 'Asap Regular', sans-serif;
     font-size: 2.5em;
-    color: #f5c506;
+    color: rgba(245, 197, 6, 1);
     text-transform: uppercase;
 }
 
@@ -43,5 +43,5 @@
     list-style-image: url(../../images/section-benefits/dot.png);
     font-family: 'Open Sans', sans-serif;
     font-size: 1.4em;
-    color: #a9a9a7;
+    color: rgba(169, 169, 167, 1);
 }
