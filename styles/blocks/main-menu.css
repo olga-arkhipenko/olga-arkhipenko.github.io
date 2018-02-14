@@ -5,16 +5,14 @@
     font-weight: normal;
 }
 
-.main-menu {
-    /* display: flex; */
+.main-menu{
+    display: flex;
     margin-top: 40px;
-    margin-left: 8px;
     background-color: #f5c506;
     box-shadow: -4px -4px 0 #9e8415, -8px -8px 0px #806f24;
 }
 
 .main-menu__tab {
-    display: inline-block;
     padding: 12px 22px 12px 20px;
     border-left: 1px solid #dcb105;
     font-size: 1.1em;
