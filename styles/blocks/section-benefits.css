@@ -19,13 +19,15 @@
 }
 
 .section-benefits__title {
-    flex-basis: 100%;
+    /* flex-basis: 100%; */
     margin-bottom: 10px;
     text-align: center;
     font-family: 'Asap Regular', sans-serif;
     font-size: 2.5em;
     color: rgba(245, 197, 6, 1);
     text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 2px;
 }
 
 .section-benefits__img {
