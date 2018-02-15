@@ -26,10 +26,11 @@
     vertical-align: bottom;
     /* box-sizing: border-box; */
     width: 33%;
+    padding-top: 4%;
     /* flex-direction: column-reverse;
     flex-grow: 1;
     flex-basis: 120px; */
-    height: 212px; /*CHANCGE FOR % */
+    /* height: 212px; /*CHANCGE FOR % */
     text-align: center;
     border-left: 1px solid rgba(209, 209, 209, 1);
 }
@@ -39,7 +40,7 @@
 }
 
 .section-features__item-name {
-    /* margin: 15px 0 35px; */
+    margin: 5% 0 11%;
     font-family: 'SegoeWP', sans-serif;
     font-size: 1.7em;
     color: rgba(0, 0, 0, 1);
