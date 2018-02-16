@@ -29,5 +29,6 @@
 .primary-logo__author {
     font-family: 'LaoUI', sans-serif;
     font-size: .3em;
+    font-style: normal;
     text-transform: uppercase;
 }
