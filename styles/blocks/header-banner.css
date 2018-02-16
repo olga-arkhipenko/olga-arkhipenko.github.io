@@ -5,16 +5,26 @@
     font-weight: normal;
 }
 
-.header-banner{
+.header-banner {
+    overflow: hidden;
     padding: 25px 0 70px;
 }
 
 .header-banner__player {
+    margin-left: 1%;
+    vertical-align: middle;
+    display: inline-block;
     /* margin-left: 10px; */
 }
 
 .header-banner__title {
+    display: inline-block;
     /* margin: 72px 30px 0; */
+    float: right;
+
+    margin-top: 70px;
+    /* margin-left: 20px; */
+    margin-right: 30px;
     font-family: 'Asap Regular', sans-serif;
     font-size: 3.9em;
     line-height: 1.25em;
@@ -24,4 +34,5 @@
 
 .header-banner__title--primary {
     color: rgba(245, 197, 6, 1);
+    word-spacing: .1em;
 }
