@@ -13,13 +13,19 @@
 }
 
 .primary-logo {
-    display: inline-flex;
-    align-items: center;
+    /* display: inline-flex;
+    align-items: center; */
     color: rgba(255, 255, 255, 1);
 }
 
-.primary-logo-name {
-    padding: 10px 0 0 8px;
+.primary-logo__image {
+    vertical-align: middle;
+}
+
+.primary-logo__name {
+    display: inline-block;
+    vertical-align: middle;
+    padding-top: 10px;
     font-family: 'Lucida Sans Italic', sans-serif;
     font-style: italic;
     font-size: 2.5em;
