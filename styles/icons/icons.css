@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('../../fonts/icomoon/icomoon.eot?36j4z3');
-  src:  url('../../fonts/icomoon/icomoon.eot?36j4z3#iefix') format('embedded-opentype'),
-    url('../../fonts/icomoon/icomoon.ttf?36j4z3') format('truetype'),
-    url('../../fonts/icomoon/icomoon.woff?36j4z3') format('woff'),
-    url('../../fonts/icomoon/icomoon.svg?36j4z3#icomoon') format('svg');
+  src:  url('../../fonts/icomoon/icomoon.eot?n9spho');
+  src:  url('../../fonts/icomoon/icomoon.eot?n9spho#iefix') format('embedded-opentype'),
+    url('../../fonts/icomoon/icomoon.ttf?n9spho') format('truetype'),
+    url('../../fonts/icomoon/icomoon.woff?n9spho') format('woff'),
+    url('../../fonts/icomoon/icomoon.svg?n9spho#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -27,17 +27,14 @@
 .icon-design:before {
   content: "\e901";
   color: #f5c506;
-  font-size: 4.7em;
 }
 .icon-custom:before {
   content: "\e902";
   color: #f5c506;
-  font-size: 5.8em;
 }
 .icon-free:before {
   content: "\e903";
   color: #f5c506;
-  font-size: 5em;;
 }
 .icon-about-us:before {
   content: "\e904";
