@@ -1,7 +1,0 @@
-.section-about-us-wrapper {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-start;
-    /* flex-wrap: wrap; */
-}

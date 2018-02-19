@@ -13,8 +13,6 @@
 }
 
 .primary-logo {
-    /* display: inline-flex;
-    align-items: center; */
     color: rgba(255, 255, 255, 1);
 }
 
@@ -29,8 +27,7 @@
     font-style: italic;
     font-size: 2.5em;
     text-shadow: 1px 2px 2px rgba(0, 0, 0, 1);
-    /* padding-left: .6%; */
-    padding-left: 4px;
+    padding-left: .6%;
 }
 
 .primary-logo__author {
@@ -46,8 +43,10 @@
 }
 
 .primary-logo__name--small {
+    font-stretch: condensed;
     font-size: 1.8em;
-    font-weight: 100;
+    padding-left: 3%;
+    letter-spacing: 3px;
 }
 
 .primary-logo__image--small {
