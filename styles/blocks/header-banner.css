@@ -1,37 +1,46 @@
 @font-face {
-    font-family: 'Asap Regular';
-    src: local('Asap Regular'), url('../../fonts/Asap Regular/Asap Regular.otf') format('opentype');
-    font-style: normal;
+    font-family: "Asap Regular";
     font-weight: normal;
+    font-style: normal;
+
+    src: local("Asap Regular"), url("../../fonts/Asap Regular/Asap Regular.otf") format("opentype");
 }
 
 .header-banner {
     overflow: hidden;
+
     padding: 25px 0 70px;
 }
 
 .header-banner__player {
-    width: 54.8%;
-    box-sizing: border-box;
-    padding-left: 1%;
-    vertical-align: middle;
     display: inline-block;
+
+    box-sizing: border-box;
+    width: 54.8%;
+    padding-left: 1%;
+
+    vertical-align: middle;
 }
 
 .header-banner__title {
     display: inline-block;
-    width: 45.2%;
-    box-sizing: border-box;
     float: right;
+
+    box-sizing: border-box;
+    width: 45.2%;
     padding: 7% 1% 0 3%;
-    font-family: 'Asap Regular', sans-serif;
+
+    text-align: center;
+
+    color: rgba(255, 255, 255, 1);
+
+    font-family: "Asap Regular", sans-serif;
     font-size: 3.9em;
     line-height: 1.25em;
-    color: rgba(255, 255, 255, 1);
-    text-align: center;
 }
 
 .header-banner__title--primary {
+    word-spacing: 0.1em;
+
     color: rgba(245, 197, 6, 1);
-    word-spacing: .1em;
 }

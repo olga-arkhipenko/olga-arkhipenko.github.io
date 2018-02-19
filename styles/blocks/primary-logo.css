@@ -1,15 +1,17 @@
 @font-face {
-    font-family: 'Lucida Sans Italic';
-    src: url('../../fonts/Lucida Sans Italic/Lucida-Sans-Italic.tff') format('ttf');
-    font-style: normal;
+    font-family: "Lucida Sans Italic";
     font-weight: normal;
+    font-style: normal;
+
+    src: url("../../fonts/Lucida Sans Italic/Lucida-Sans-Italic.tff") format("ttf");
 }
 
 @font-face {
-    font-family: 'LaoUI';
-    src: local('LaoUI'), url('../../fonts/LaoUI/LaoUI.tff') format('tff');
-    font-style: normal;
+    font-family: "LaoUI";
     font-weight: normal;
+    font-style: normal;
+
+    src: local("LaoUI"), url("../../fonts/LaoUI/LaoUI.tff") format("tff");
 }
 
 .primary-logo {
@@ -22,31 +24,38 @@
 
 .primary-logo__name {
     display: inline-block;
+
     padding-bottom: 3.5%;
-    font-family: 'Lucida Sans Italic', sans-serif;
-    font-style: italic;
-    font-size: 2.5em;
+    padding-left: 0.6%;
+
     text-shadow: 1px 2px 2px rgba(0, 0, 0, 1);
-    padding-left: .6%;
+
+    font-family: "Lucida Sans Italic", sans-serif;
+    font-size: 2.5em;
+    font-style: italic;
 }
 
 .primary-logo__author {
-    font-family: 'LaoUI', sans-serif;
-    font-size: .3em;
-    font-style: normal;
     text-transform: uppercase;
+
+    font-family: "LaoUI", sans-serif;
+    font-size: 0.3em;
+    font-style: normal;
 }
 
 .primary-logo--small {
     display: inline-block;
+
     color: rgba(255, 255, 255, 1);
 }
 
 .primary-logo__name--small {
-    font-stretch: condensed;
-    font-size: 1.8em;
     padding-left: 3%;
+
     letter-spacing: 3px;
+
+    font-size: 1.8em;
+    font-stretch: condensed;
 }
 
 .primary-logo__image--small {

@@ -1,12 +1,14 @@
 @font-face {
-    font-family: 'SegoeWP';
-    src: local('SegoeWP'), url('../../fonts/Segoe/SegoeWP.woff') format('woff');
-    font-style: normal;
+    font-family: "SegoeWP";
     font-weight: normal;
+    font-style: normal;
+
+    src: local("SegoeWP"), url("../../fonts/Segoe/SegoeWP.woff") format("woff");
 }
 
 .section-features {
     position: relative;
+
     background: url(../../images/section-features/section-features-background.jpg) no-repeat;
     background-size: cover;
     box-shadow: 0 1px 4px rgba(173, 146, 37, 1), 0 -1px 4px rgba(70, 54, 27, 1);
@@ -14,15 +16,19 @@
 
 .section-features-wrapper {
     display: table;
+
     width: 100%;
 }
 
 .section-features__item {
     display: table-cell;
-    vertical-align: bottom;
+
     width: 33%;
     padding-top: 4%;
+
     text-align: center;
+    vertical-align: bottom;
+
     border-left: 1px solid rgba(209, 209, 209, 1);
 }
 
@@ -32,8 +38,11 @@
 
 .section-features__item-name {
     margin: 5% 0 11%;
-    font-family: 'SegoeWP', sans-serif;
-    font-size: 1.7em;
-    color: rgba(0, 0, 0, 1);
+
     text-transform: uppercase;
+
+    color: rgba(0, 0, 0, 1);
+
+    font-family: "SegoeWP", sans-serif;
+    font-size: 1.7em;
 }

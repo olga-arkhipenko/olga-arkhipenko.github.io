@@ -14,21 +14,23 @@
 }
 
 .section-about-us {
-    padding: 18px 0 165px;
     overflow: hidden;
+
+    padding: 18px 0 165px;
+
     background: linear-gradient(33deg, rgba(247, 207, 50, 1) 25%, rgba(255, 255, 255, 0) 25%) 93px 15px,
     linear-gradient(33deg, rgba(255, 255, 255, 0) 73%, rgba(247, 207, 50, 1) 75%) 36px 51px,
     linear-gradient(33deg, rgba(255, 255, 255, 0) 75%, rgba(247, 207, 50, 1) 75%) -23px 15px,
     linear-gradient(33deg, rgba(247, 207, 50, 1) 25%, rgba(255, 255, 255, 0) 26%) 36px -20px;
-    background-size: 117px 72px;
     background-color: rgba(247, 212, 69, 1);
+    background-size: 117px 72px;
 }
 
 .section-about-us__title {
     margin: 20px 0 36px;
 
-    text-transform: uppercase;
     letter-spacing: 1px;
+    text-transform: uppercase;
 
     color: rgba(255, 255, 255, 1);
 
@@ -37,8 +39,8 @@
 }
 
 .section-about-us__video {
-    float: left;
     display: flex;
+    float: left;
 
     width: 64.4%;
 
@@ -54,11 +56,12 @@
 }
 
 .section-about-us__video-description {
-    box-sizing: border-box;
-    word-break: break-word;
     position: relative;
 
+    box-sizing: border-box;
     padding: 20px 10px 0 30px;
+
+    word-break: break-word;
 
     line-height: 38px;
 }
@@ -68,10 +71,11 @@
 }
 
 .section-about-us__social {
-    float: right;
     position: relative;
-    width: 32.3529412%;
 
+    float: right;
+
+    width: 32.3529412%;
 
     text-align: center;
 
@@ -88,6 +92,7 @@
 
 .section-about-us__social-twitter {
     padding: 18% 0 11.3%;
+
     text-align: center;
 
     font-size: 5em;
@@ -97,5 +102,6 @@
     position: absolute;
     right: 14px;
     bottom: 14px;
+
     font-size: 10px;
 }
