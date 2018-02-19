@@ -15,6 +15,7 @@
 
 .section-about-us {
     padding: 18px 0 165px;
+    overflow: hidden;
     background: linear-gradient(33deg, rgba(247, 207, 50, 1) 25%, rgba(255, 255, 255, 0) 25%) 93px 15px,
     linear-gradient(33deg, rgba(255, 255, 255, 0) 73%, rgba(247, 207, 50, 1) 75%) 36px 51px,
     linear-gradient(33deg, rgba(255, 255, 255, 0) 75%, rgba(247, 207, 50, 1) 75%) -23px 15px,
@@ -33,20 +34,15 @@
 
     font-family: "Asap Regular", sans-serif;
     font-size: 2.2em;
-
-    /* flex-basis: 100%; */
 }
 
 .section-about-us__video {
-    display: inline-block;
-    /* display: inline-flex;
+    float: left;
+    display: flex;
 
-    max-height: 232px; */
     width: 64.4%;
 
     background-color: rgba(236, 158, 3, 1);
-
-    /* flex-basis: 655px; */
 }
 
 .section-about-us__video-description,
@@ -58,9 +54,8 @@
 }
 
 .section-about-us__video-description {
-    /* display: inline-block; */
     box-sizing: border-box;
-    width: 52%;
+    word-break: break-word;
     position: relative;
 
     padding: 20px 10px 0 30px;
@@ -69,18 +64,13 @@
 }
 
 .section-about-us__video-player {
-    width: 48%;
-    /* display: inline-block; */
-    float: right;
+    flex: 1;
 }
 
 .section-about-us__social {
+    float: right;
     position: relative;
     width: 32.3529412%;
-
-    /* display: flex;
-
-    max-height: 232px; */
 
 
     text-align: center;
@@ -88,7 +78,6 @@
     background-color: rgba(236, 158, 3, 1);
 
     align-items: center;
-    /* flex-basis: 330px; */
 }
 
 .section-about-us__social-count {
@@ -102,14 +91,11 @@
     text-align: center;
 
     font-size: 5em;
-
-    /* flex-basis: 100%; */
 }
 
 .section-about-us__social-plus {
     position: absolute;
-    right: 10px;
-    bottom: 13px;
-
+    right: 14px;
+    bottom: 14px;
     font-size: 10px;
 }
