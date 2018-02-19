@@ -33,17 +33,19 @@
     font-family: "Asap Regular", sans-serif;
     font-size: 2.2em;
 
-    flex-basis: 100%;
+    /* flex-basis: 100%; */
 }
 
 .section-about-us__video {
-    display: inline-flex;
+    display: inline-block;
+    /* display: inline-flex;
 
-    max-height: 232px;
+    max-height: 232px; */
+    width: 64.4%;
 
     background-color: rgba(236, 158, 3, 1);
 
-    flex-basis: 655px;
+    /* flex-basis: 655px; */
 }
 
 .section-about-us__video-description,
@@ -55,6 +57,9 @@
 }
 
 .section-about-us__video-description {
+    /* display: inline-block; */
+    box-sizing: border-box;
+    width: 52%;
     position: relative;
 
     padding: 20px 10px 0 30px;
@@ -62,19 +67,27 @@
     line-height: 38px;
 }
 
+.section-about-us__video-player {
+    width: 48%;
+    /* display: inline-block; */
+    float: right;
+}
+
 .section-about-us__social {
     position: relative;
+    width: 32.3529412%;
 
-    display: flex;
+    /* display: flex;
 
-    max-height: 232px;
+    max-height: 232px; */
+
 
     text-align: center;
 
     background-color: rgba(236, 158, 3, 1);
 
     align-items: center;
-    flex-basis: 330px;
+    /* flex-basis: 330px; */
 }
 
 .section-about-us__social-count {
@@ -84,11 +97,12 @@
 }
 
 .section-about-us__social-twitter {
+    padding: 18% 0 11.3%;
     text-align: center;
 
     font-size: 5em;
 
-    flex-basis: 100%;
+    /* flex-basis: 100%; */
 }
 
 .section-about-us__social-plus {
