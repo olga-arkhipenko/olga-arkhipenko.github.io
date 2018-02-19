@@ -31,13 +31,15 @@
 }
 
 .section-benefits__img {
-    height: 100%;
+    width: 55%;
+    /* height: 100%; */
 }
 
 .section-benefits__items-list {
     word-wrap: break-word;
-    flex-basis: 360px;
-    padding-top: 90px;
+    padding: 9% 0 0 10%;
+    /* flex-basis: 360px; */
+    /* padding-top: 90px; */
 }
 
 .section-benefits__item {
