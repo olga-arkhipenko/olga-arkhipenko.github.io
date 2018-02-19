@@ -19,17 +19,18 @@
 }
 
 .primary-logo__image {
-    vertical-align: middle;
+    vertical-align: bottom;
 }
 
 .primary-logo__name {
     display: inline-block;
-    vertical-align: middle;
-    padding-top: 10px;
+    padding-bottom: 3.5%;
     font-family: 'Lucida Sans Italic', sans-serif;
     font-style: italic;
     font-size: 2.5em;
     text-shadow: 1px 2px 2px rgba(0, 0, 0, 1);
+    /* padding-left: .6%; */
+    padding-left: 4px;
 }
 
 .primary-logo__author {
@@ -37,4 +38,18 @@
     font-size: .3em;
     font-style: normal;
     text-transform: uppercase;
+}
+
+.primary-logo--small {
+    display: inline-block;
+    color: rgba(255, 255, 255, 1);
+}
+
+.primary-logo__name--small {
+    font-size: 1.8em;
+    font-weight: 100;
+}
+
+.primary-logo__image--small {
+    width: 20%;
 }
