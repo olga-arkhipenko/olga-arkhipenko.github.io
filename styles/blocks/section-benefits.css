@@ -24,7 +24,7 @@
 }
 
 .section-benefits__title {
-    margin-bottom: 9px;
+    margin-bottom: 1.3%;
 
     text-align: center;
     word-spacing: 2px;
@@ -36,7 +36,8 @@
     font-size: 2.6em;
 }
 
-.section-benefits__img {
+.section-benefits__image {
+    width: 55%;
     height: 100%;
 }
 
