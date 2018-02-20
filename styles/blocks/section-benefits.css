@@ -44,36 +44,12 @@
     font-size: 2.6em;
 }
 
-.section-benefits__img {
+.section-benefits__image {
     height: 100%;
 }
 
-.section-benefits__items-list {
+.section-benefits__list {
     box-sizing: border-box;
     width: 34%;
     padding-top: 88px;
-
-    word-wrap: break-word;
-
-    line-height: 1.7em;
-}
-
-.section-benefits__item {
-    box-sizing: border-box;
-    padding-bottom: 19px;
-
-    list-style-type: disc;
-
-    color: #f5c506;
-
-    font-family: "Open Sans", sans-serif;
-    font-size: 2.4em;
-}
-
-.section-benefits__item-text {
-    vertical-align: top;
-
-    color: #a9a9a7;
-
-    font-size: 0.6em;
 }
