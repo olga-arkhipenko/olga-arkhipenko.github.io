@@ -37,11 +37,10 @@
 
 .section-about-us__video {
     display: flex;
+    align-items: flex-start;
     float: left;
 
     width: 64%;
-
-    background-color: #ec9e03;
 }
 
 .section-about-us__video-description,
@@ -56,11 +55,12 @@
     position: relative;
 
     box-sizing: border-box;
-    padding: 20px 10px 0 30px;
+    padding: 17px 15px 25px 30px;
 
     word-break: break-word;
 
     line-height: 38px;
+    background-color: #ec9e03;
 }
 
 .section-about-us__social {
@@ -81,8 +81,8 @@
 
 .section-about-us__social-count {
     position: absolute;
-    top: 6%;
-    right: 6%;
+    top: 14px;
+    right: 17px;
 }
 
 .section-about-us__social-twitter {
@@ -93,8 +93,8 @@
 
 .section-about-us__social-plus {
     position: absolute;
-    right: 4%;
-    bottom: 5%;
+    right: 12px;
+    bottom: 11px;
 
     font-size: 0.4em;
 }
