@@ -1,12 +1,14 @@
 .list {
     word-wrap: break-word;
+
     line-height: 1.7em;
 }
 
 .list__item {
-    list-style-type: disc;
     box-sizing: border-box;
     padding-bottom: 19px;
+
+    list-style-type: disc;
 
     color: #f5c506;
 

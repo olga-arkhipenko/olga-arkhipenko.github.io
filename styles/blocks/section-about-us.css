@@ -37,10 +37,11 @@
 
 .section-about-us__video {
     display: flex;
-    align-items: flex-start;
     float: left;
 
     width: 64%;
+
+    align-items: flex-start;
 }
 
 .section-about-us__video-description,
@@ -59,8 +60,9 @@
 
     word-break: break-word;
 
-    line-height: 38px;
     background-color: #ec9e03;
+
+    line-height: 38px;
 }
 
 .section-about-us__social {
