@@ -19,7 +19,7 @@
     padding: 17px 0 165px;
 
     background: linear-gradient(31deg, rgba(247, 207, 50, 1) 25%, rgba(255, 255, 255, 0) 25%) 104px 15px, linear-gradient(30deg, rgba(255, 255, 255, 0) 75%, rgba(247, 207, 50, 1) 75%) 41px 51px, linear-gradient(33deg, rgba(255, 255, 255, 0) 73%, rgba(247, 207, 50, 1) 75%) -22px 15px, linear-gradient(33deg, rgba(247, 207, 50, 1) 27%, rgba(255, 255, 255, 0) 25%) 41px -20px;
-    background-color: rgba(247, 212, 69, 1);
+    background-color: #f7d445;
     background-size: 42px 24px;
 }
 
@@ -29,7 +29,7 @@
     letter-spacing: 1px;
     text-transform: uppercase;
 
-    color: rgba(255, 255, 255, 1);
+    color: #ffffff;
 
     font-family: "Asap Regular", sans-serif;
     font-size: 2.2em;
@@ -41,12 +41,12 @@
 
     width: 64.4%;
 
-    background-color: rgba(236, 158, 3, 1);
+    background-color: #ec9e03;
 }
 
 .section-about-us__video-description,
 .section-about-us__social {
-    color: rgba(255, 255, 255, 1);
+    color: #ffffff;
 
     font-family: "SegoeWP", sans-serif;
     font-size: 1.7em;
@@ -74,7 +74,7 @@
 
     text-align: center;
 
-    background-color: rgba(236, 158, 3, 1);
+    background-color: #ec9e03;
 
     align-items: center;
 }

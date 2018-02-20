@@ -10,7 +10,7 @@
     position: relative;
 
     background: linear-gradient(45deg, rgba(255,255,255,0.2) 25%, rgba(0,0,0,0) 25%, rgba(0,0,0,0) 50%, rgba(255,255,255,0.2) 50%, rgba(255,255,255,0.2) 75%, rgba(0,0,0,0) 75%, rgba(0,0,0,0) 0), rgba(242,242,242,0.7);
-    background-color: rgba(242,242,242,1);
+    background-color: #f2f2f2;
     background-size: 12px 12px;
 
     box-shadow: 0 1px 4px #ad9225, 0 -1px 4px #46361b;

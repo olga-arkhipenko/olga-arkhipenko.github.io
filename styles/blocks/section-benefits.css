@@ -18,9 +18,9 @@
     box-sizing: border-box;
     padding: 42px 0 78px;
 
-    background: linear-gradient(45deg, rgba(76, 76, 76, 1) 12%, transparent 0, transparent 88%, rgba(76, 76, 76, 1) 0),
-    linear-gradient(135deg, transparent 37%, rgba(76, 76, 76, 1) 0, rgba(71, 71, 71, 1) 63%, transparent 0),
-    linear-gradient(45deg, transparent 37%, rgba(76, 76, 76, 1) 0, rgba(76, 76, 76, 1) 63%, transparent 0) rgba(71, 71, 71, 1);
+    background: linear-gradient(45deg, #4c4c4c 12%, transparent 0, transparent 88%, #4c4c4c 0),
+    linear-gradient(135deg, transparent 37%, #4c4c4c 0, #474747 63%, transparent 0),
+    linear-gradient(45deg, transparent 37%, #4c4c4c 0, #4c4c4c 63%, transparent 0) #474747;
     background-size: 12px 12px;
 }
 
@@ -38,7 +38,7 @@
     word-spacing: 2px;
     text-transform: uppercase;
 
-    color: rgba(245, 197, 6, 1);
+    color: #f5c506;
 
     font-family: "Asap Regular", sans-serif;
     font-size: 2.6em;
@@ -64,7 +64,7 @@
 
     list-style-type: disc;
 
-    color: rgba(245, 197, 6, 1);
+    color: #f5c506;
 
     font-family: "Open Sans", sans-serif;
     font-size: 2.4em;
@@ -73,7 +73,7 @@
 .section-benefits__item-text {
     vertical-align: top;
 
-    color: rgba(169, 169, 167, 1);
+    color: #a9a9a7;
 
     font-size: 0.6em;
 }

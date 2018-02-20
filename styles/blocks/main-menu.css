@@ -7,7 +7,7 @@
 }
 
 .main-menu {
-    background-color: rgba(245, 197, 6, 1);
+    background-color: #f5c506;
     box-shadow: -4px -4px 0 rgba(245, 197, 6, 0.6), -8px -8px 0 rgba(245, 197, 6, 0.3);
 }
 
@@ -16,7 +16,7 @@
 
     padding: 12px 20px;
 
-    border-left: 1px solid rgba(220, 177, 5, 1);
+    border-left: 1px solid #dcb105;
 
     font-size: 1.1em;
 }
@@ -30,7 +30,7 @@
 .main-menu__tab-name {
     text-transform: uppercase;
 
-    color: rgba(167, 135, 8, 1);
+    color: #a78708;
 
     font-family: "Segoe WP N", sans-serif;
     font-weight: 500;
