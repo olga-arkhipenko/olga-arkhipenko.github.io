@@ -15,7 +15,8 @@
 }
 
 .section-benefits {
-    padding: 2.4% 0 3.8%;
+    box-sizing: border-box;
+    padding: 42px 0 78px;
 
     background: linear-gradient(45deg, rgba(76, 76, 76, 1) 12%, transparent 0, transparent 88%, rgba(76, 76, 76, 1) 0),
     linear-gradient(135deg, transparent 37%, rgba(76, 76, 76, 1) 0, rgba(71, 71, 71, 1) 63%, transparent 0),
@@ -41,8 +42,9 @@
 }
 
 .section-benefits__items-list {
+    box-sizing: border-box;
     width: 34%;
-    padding-top: 8.7%;
+    padding-top: 88px;
 
     word-wrap: break-word;
 
@@ -50,7 +52,8 @@
 }
 
 .section-benefits__item {
-    padding: 0 0 6% 0;
+    box-sizing: border-box;
+    padding-bottom: 19px;
 
     list-style-type: disc;
 

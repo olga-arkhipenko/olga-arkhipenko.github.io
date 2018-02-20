@@ -2,10 +2,3 @@
     background: url(../../images/header/header-background.jpg) no-repeat;
     background-size: cover;
 }
-
-.header-wrapper {
-    display: grid;
-
-    grid-template-columns: 55% 45%;
-    grid-template-rows: 50% 50%;
-}
