@@ -24,6 +24,13 @@
     background-size: 12px 12px;
 }
 
+.section-benefits__inner {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+}
+
 .section-benefits__title {
     margin-bottom: 9px;
 

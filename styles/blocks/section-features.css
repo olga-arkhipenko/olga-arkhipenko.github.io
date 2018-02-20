@@ -13,7 +13,13 @@
     background-color: rgba(242,242,242,1);
     background-size: 12px 12px;
 
-    box-shadow: 0 1px 4px rgba(173, 146, 37, 1), 0 -1px 4px rgba(70, 54, 27, 1);
+    box-shadow: 0 1px 4px #ad9225, 0 -1px 4px #46361b;
+}
+
+.section-features__inner {
+    display: table;
+
+    width: 100%;
 }
 
 .section-features__item {
@@ -25,11 +31,11 @@
     text-align: center;
     vertical-align: bottom;
 
-    border-left: 1px solid rgba(209, 209, 209, 1);
+    border-left: 1px solid #d1d1d1;
 }
 
 .section-features__item:last-child {
-    border-right: 1px solid rgba(209, 209, 209, 1);
+    border-right: 1px solid #d1d1d1;
 }
 
 .section-features__item-name {
@@ -37,7 +43,7 @@
 
     text-transform: uppercase;
 
-    color: rgba(0, 0, 0, 1);
+    color: #000000;
 
     font-family: "SegoeWP", sans-serif;
     font-size: 1.7em;

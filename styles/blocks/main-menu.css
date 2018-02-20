@@ -12,7 +12,6 @@
 }
 
 .main-menu__tab {
-    display: inline-block;
     float: left;
 
     padding: 12px 20px;
