@@ -14,10 +14,8 @@
     <link rel="stylesheet" href="./styles/blocks/header-banner.css">
     <link rel="stylesheet" href="./styles/blocks/main-menu.css">
     <link rel="stylesheet" href="./styles/blocks/section-features.css">
-    <link rel="stylesheet" href="./styles/blocks/section-features-wrapper.css">
     <link rel="stylesheet" href="./styles/blocks/section-about-us.css">
     <link rel="stylesheet" href="./styles/blocks/section-benefits.css">
-    <link rel="stylesheet" href="./styles/blocks/section-benefits-wrapper.css">
     <link rel="stylesheet" href="./styles/blocks/footer.css">
     <link rel="stylesheet" href="./styles/icons/icons.css">
     <title>THEYALOW</title>
@@ -27,7 +25,7 @@
         <div class="container">
             <div class="header-navigation">
                 <div class="primary-logo">
-                    <a href="#" class="link">
+                    <a href="#" class="link primary-logo__link">
                         <img src="./images/primary-logo.png" alt="THEYALOW logo" class="primary-logo__image">
                         <p class="primary-logo__name">THEYALOW<span class="primary-logo__author">Craft By Css author.com</span></p>
                     </a>
@@ -60,22 +58,16 @@
             <div class="container">
                 <div class="section-features__inner">
                     <div class="section-features__item">
-                        <a href="#" class="link ">
-                            <span class="icon-design section-features__icon"></span>
-                            <h4 class="section-features__item-name">better design</h4>
-                        </a>
+                        <span class="icon-design section-features__icon"></span>
+                        <h4 class="section-features__item-name">better design</h4>
                     </div>
                     <div class="section-features__item">
-                        <a href="#" class="link">
-                            <span class="icon-custom section-features__icon"></span>
-                            <h4 class="section-features__item-name">customise</h4>
-                        </a>
+                        <span class="icon-custom section-features__icon"></span>
+                        <h4 class="section-features__item-name">customise</h4>
                     </div>
                     <div class="section-features__item">
-                        <a href="#" class="link">
-                            <span class="icon-free section-features__icon"></span>
-                            <h4 class="section-features__item-name">it's free</h4>
-                        </a>
+                        <span class="icon-free section-features__icon"></span>
+                        <h4 class="section-features__item-name">it's free</h4>
                     </div>
                 </div>
             </div>
@@ -123,9 +115,11 @@
         </section>
     </main>
     <footer class="footer">
-        <div class="primary-logo--small">
-            <img src="./images/primary-logo.png" class=" primary-logo__image primary-logo__image--small" alt="THEYALOW logo">
-            <p class="primary-logo__name primary-logo__name--small">THEYALOW</p>
+        <div class="primary-logo primary-logo--small">
+            <a href="#" class="link primary-logo__link">
+                <img src="./images/primary-logo.png" class=" primary-logo__image" alt="THEYALOW logo">
+                <p class="primary-logo__name">THEYALOW</p>
+            </a>
         </div>
     </footer>
 </body>

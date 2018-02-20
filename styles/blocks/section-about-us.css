@@ -39,7 +39,7 @@
     display: flex;
     float: left;
 
-    width: 64.4%;
+    width: 64%;
 
     background-color: #ec9e03;
 }
@@ -69,7 +69,7 @@
     float: right;
 
     box-sizing: border-box;
-    width: 32.3529412%;
+    width: 32%;
     padding: 60px 0 37px;
 
     text-align: center;
@@ -82,7 +82,7 @@
 .section-about-us__social-count {
     position: absolute;
     top: 6%;
-    left: 86%;
+    right: 6%;
 }
 
 .section-about-us__social-twitter {
@@ -96,5 +96,5 @@
     right: 4%;
     bottom: 5%;
 
-    font-size: 0.3em;
+    font-size: 0.4em;
 }
