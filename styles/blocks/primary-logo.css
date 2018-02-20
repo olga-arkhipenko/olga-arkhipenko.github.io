@@ -46,12 +46,6 @@
     font-style: normal;
 }
 
-.primary-logo--small {
-    display: inline-block;
-
-    color: #ffffff;
-}
-
 .primary-logo--small .primary-logo__name {
     padding: 0 0 8px;
 

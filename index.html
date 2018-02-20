@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./styles/blocks/container.css">
     <link rel="stylesheet" href="./styles/blocks/link.css">
     <link rel="stylesheet" href="./styles/blocks/clearfix.css">
-    <link rel="stylesheet" href="./styles/blocks/video-player-image.css">
+    <link rel="stylesheet" href="./styles/blocks/video-player.css">
     <link rel="stylesheet" href="./styles/blocks/list.css">
     <link rel="stylesheet" href="./styles/blocks/primary-logo.css">
     <link rel="stylesheet" href="./styles/blocks/header.css">
@@ -48,9 +48,9 @@
                 </nav>
             </div>
             <div class="header-banner clearfix">
-                <div class="header-banner__player">
-                    <img src="./images/header/player.jpg" class="video-player-image" alt="Video player">
-                </div>
+                    <video class="header-banner__player" src="videofile.ogg" autoplay controls class="video-player" poster="./images/header/player.jpg">
+                        Sorry, video-player is nor supported by your browser.
+                    </video>
                 <p class="header-banner__title"><span class="header-banner__title--primary">THE COOL</span><br>THE MINIMAL</p>
             </div>
         </div>
@@ -82,9 +82,9 @@
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
                         <span class="section-about-us__social-plus icon-plus"></span>
                     </p>
-                    <div>
-                        <img class="video-player-image" src="./images/section-about-us/player.jpg" alt="Video player">
-                    </div>
+                    <video src="videofile.ogg" autoplay controls class="video-player" poster="./images/section-about-us/player.jpg">
+                        Sorry, video-player is nor supported by your browser.
+                    </video>
                 </div>
                 <div class="section-about-us__social">
                     <p class="section-about-us__social-count">22</p>
@@ -117,7 +117,7 @@
         </section>
     </main>
     <footer class="footer">
-        <div class="primary-logo primary-logo--small">
+        <div class="primary-logo primary-logo--small footer__logo">
             <a href="#" class="link primary-logo__link">
                 <img src="./images/primary-logo.png" class=" primary-logo__image" alt="THEYALOW logo">
                 <p class="primary-logo__name">THEYALOW</p>
