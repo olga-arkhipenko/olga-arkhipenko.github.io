@@ -18,12 +18,9 @@
 
     padding: 17px 0 165px;
 
-    background: linear-gradient(33deg, rgba(247, 207, 50, 1) 25%, rgba(255, 255, 255, 0) 25%) 93px 15px,
-    linear-gradient(33deg, rgba(255, 255, 255, 0) 73%, rgba(247, 207, 50, 1) 75%) 36px 51px,
-    linear-gradient(33deg, rgba(255, 255, 255, 0) 75%, rgba(247, 207, 50, 1) 75%) -23px 15px,
-    linear-gradient(33deg, rgba(247, 207, 50, 1) 25%, rgba(255, 255, 255, 0) 26%) 36px -20px;
+    background: linear-gradient(31deg, rgba(247, 207, 50, 1) 25%, rgba(255, 255, 255, 0) 25%) 104px 15px, linear-gradient(30deg, rgba(255, 255, 255, 0) 75%, rgba(247, 207, 50, 1) 75%) 41px 51px, linear-gradient(33deg, rgba(255, 255, 255, 0) 73%, rgba(247, 207, 50, 1) 75%) -22px 15px, linear-gradient(33deg, rgba(247, 207, 50, 1) 27%, rgba(255, 255, 255, 0) 25%) 41px -20px;
     background-color: rgba(247, 212, 69, 1);
-    background-size: 117px 72px;
+    background-size: 42px 24px;
 }
 
 .section-about-us__title {
