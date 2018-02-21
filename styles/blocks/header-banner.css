@@ -14,14 +14,14 @@
     float: left;
 
     margin-left: 10px;
-
-    vertical-align: middle;
 }
 
 .header-banner__title {
     float: left;
 
-    margin: 74px 0 0 50px;
+    /* padding: 74px 0 0 50px; */
+    padding: 7% 0 0 5%;
+    box-sizing: border-box;
 
     text-align: center;
 
@@ -37,3 +37,20 @@
 
     color: #f5c506;
 }
+
+/* @media all and (max-width: 1024px) {
+    .header-navigation {
+        margin: 0 1%;
+    }
+
+    .header-banner__player {
+        width: 52%;
+    }
+
+    .header-banner__title {
+        float: none;
+        display: inline-block;
+        width: 48%;
+        font-size: 3.2em;
+    }
+} */

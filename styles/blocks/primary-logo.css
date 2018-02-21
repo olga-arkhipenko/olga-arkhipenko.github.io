@@ -58,3 +58,9 @@
 .primary-logo--small .primary-logo__image {
     width: 20%;
 }
+
+/* @media all and (max-width: 980px) {
+    .primary-logo__author {
+        display: none;
+    }
+} */

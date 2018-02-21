@@ -7,3 +7,9 @@
     align-items: flex-end;
     justify-content: space-between;
 }
+
+/* @media all and (max-width: 1024px) {
+    .header-navigation {
+        margin: 0 1%;
+    }
+} */
