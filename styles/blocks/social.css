@@ -1,0 +1,35 @@
+.social {
+    position: relative;
+
+    padding: 60px 0 37px;
+
+    text-align: center;
+
+    background-color: #ec9e03;
+
+    align-items: center;
+    color: #ffffff;
+
+    font-family: "SegoeWP", sans-serif;
+    font-size: 1.7em;
+}
+
+.social__counter {
+    position: absolute;
+    top: 14px;
+    right: 17px;
+}
+
+.social__twitter {
+    text-align: center;
+
+    font-size: 5em;
+}
+
+.social__plus {
+    position: absolute;
+    right: 11px;
+    bottom: 12px;
+
+    font-size: 0.4em;
+}

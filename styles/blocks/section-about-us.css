@@ -37,50 +37,13 @@
 
 .section-about-us__video {
     float: left;
+    box-sizing: border-box;
 
     width: 64%;
 }
 
 .section-about-us__social {
-    color: #ffffff;
-
-    font-family: "SegoeWP", sans-serif;
-    font-size: 1.7em;
-}
-
-
-.section-about-us__social {
-    position: relative;
-
     float: right;
-
     box-sizing: border-box;
     width: 32%;
-    padding: 60px 0 37px;
-
-    text-align: center;
-
-    background-color: #ec9e03;
-
-    align-items: center;
-}
-
-.section-about-us__social-count {
-    position: absolute;
-    top: 14px;
-    right: 17px;
-}
-
-.section-about-us__social-twitter {
-    text-align: center;
-
-    font-size: 5em;
-}
-
-.section-about-us__social-plus {
-    position: absolute;
-    right: 12px;
-    bottom: 11px;
-
-    font-size: 0.4em;
 }
