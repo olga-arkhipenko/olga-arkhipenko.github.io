@@ -1,17 +1,19 @@
 .social {
     position: relative;
 
+    box-sizing: border-box;
+    width: 32%;
     padding: 60px 0 37px;
 
     text-align: center;
 
-    background-color: #ec9e03;
-
-    align-items: center;
     color: #ffffff;
+    background-color: #ec9e03;
 
     font-family: "SegoeWP", sans-serif;
     font-size: 1.7em;
+
+    align-items: center;
 }
 
 .social__counter {

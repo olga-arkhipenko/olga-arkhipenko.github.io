@@ -1,6 +1,9 @@
 .video {
     display: flex;
 
+    box-sizing: border-box;
+    width: 64%;
+
     align-items: flex-start;
 }
 
