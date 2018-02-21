@@ -36,15 +36,11 @@
 }
 
 .section-about-us__video {
-    display: flex;
     float: left;
 
     width: 64%;
-
-    align-items: flex-start;
 }
 
-.section-about-us__video-description,
 .section-about-us__social {
     color: #ffffff;
 
@@ -52,18 +48,6 @@
     font-size: 1.7em;
 }
 
-.section-about-us__video-description {
-    position: relative;
-
-    box-sizing: border-box;
-    padding: 17px 15px 25px 30px;
-
-    word-break: break-word;
-
-    background-color: #ec9e03;
-
-    line-height: 38px;
-}
 
 .section-about-us__social {
     position: relative;
