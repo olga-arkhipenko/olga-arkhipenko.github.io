@@ -1,0 +1,60 @@
+@font-face {
+    font-family: "Lucida Sans Italic";
+    font-weight: normal;
+    font-style: normal;
+
+    src: url("../../fonts/Lucida Sans Italic/Lucida-Sans-Italic.tff") format("ttf");
+}
+
+@font-face {
+    font-family: "LaoUI";
+    font-weight: normal;
+    font-style: normal;
+
+    src: local("LaoUI"), url("../../fonts/LaoUI/LaoUI.tff") format("tff");
+}
+
+.primary-logo {
+    color: #ffffff;
+}
+
+.primary-logo__link {
+    display: block;
+}
+
+.primary-logo__image {
+    vertical-align: bottom;
+}
+
+.primary-logo__name {
+    display: inline-block;
+
+    padding: 0 0 16px 2px;
+
+    text-shadow: 1px 2px 2px #000000;
+
+    font-family: "Lucida Sans Italic", sans-serif;
+    font-size: 2.5em;
+    font-style: italic;
+}
+
+.primary-logo__author {
+    text-transform: uppercase;
+
+    font-family: "LaoUI", sans-serif;
+    font-size: 0.3em;
+    font-style: normal;
+}
+
+.primary-logo--small .primary-logo__name {
+    padding: 0 0 8px;
+
+    letter-spacing: 3px;
+
+    font-size: 1.8em;
+    font-stretch: condensed;
+}
+
+.primary-logo--small .primary-logo__image {
+    width: 20%;
+}

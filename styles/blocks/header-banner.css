@@ -1,5 +1,39 @@
-/* .header-banner{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-} */
+@font-face {
+    font-family: "Asap Regular";
+    font-weight: normal;
+    font-style: normal;
+
+    src: local("Asap Regular"), url("../../fonts/Asap Regular/Asap Regular.otf") format("opentype");
+}
+
+.header-banner {
+    padding: 25px 0 73px;
+}
+
+.header-banner__player {
+    float: left;
+
+    margin-left: 10px;
+
+    vertical-align: middle;
+}
+
+.header-banner__title {
+    float: left;
+
+    margin: 74px 0 0 50px;
+
+    text-align: center;
+
+    color: #ffffff;
+
+    font-family: "Asap Regular", sans-serif;
+    font-size: 3.9em;
+    line-height: 1.23em;
+}
+
+.header-banner__title--primary {
+    word-spacing: 7px;
+
+    color: #f5c506;
+}

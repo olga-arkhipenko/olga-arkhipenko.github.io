@@ -1,9 +1,55 @@
-.section-benefits{
-  background: url(../../images/section-benefits/section-benefits-background.jpg) no-repeat;
-  background-size: cover;
+@font-face {
+    font-family: "Open Sans";
+    font-weight: normal;
+    font-style: normal;
+
+    src: local("Open Sans"), url("../../fonts/OpenSans Regular/OpenSans-Regular.ttf") format("truetype");
 }
 
-.section-benefits__title{
-  flex-basis: 100%;
-  text-transform: uppercase;
+@font-face {
+    font-family: "Asap Regular";
+    font-weight: normal;
+    font-style: normal;
+
+    src: local("Asap Regular"), url("../../fonts/Asap Regular/Asap Regular.otf") format("opentype");
+}
+
+.section-benefits {
+    box-sizing: border-box;
+    padding: 42px 0 78px;
+
+    background: linear-gradient(45deg, #4c4c4c 12%, transparent 0, transparent 88%, #4c4c4c 0),
+    linear-gradient(135deg, transparent 37%, #4c4c4c 0, #474747 63%, transparent 0),
+    linear-gradient(45deg, transparent 37%, #4c4c4c 0, #4c4c4c 63%, transparent 0) #474747;
+    background-size: 12px 12px;
+}
+
+.section-benefits__inner {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+}
+
+.section-benefits__title {
+    margin-bottom: 9px;
+
+    text-align: center;
+    word-spacing: 2px;
+    text-transform: uppercase;
+
+    color: #f5c506;
+
+    font-family: "Asap Regular", sans-serif;
+    font-size: 2.6em;
+}
+
+.section-benefits__image {
+    height: 100%;
+}
+
+.section-benefits__list {
+    box-sizing: border-box;
+    width: 34%;
+    padding-top: 88px;
 }

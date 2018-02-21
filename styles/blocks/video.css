@@ -1,0 +1,31 @@
+.video {
+    display: flex;
+
+    box-sizing: border-box;
+    width: 64%;
+
+    align-items: flex-start;
+}
+
+.video__description {
+    position: relative;
+
+    padding: 17px 15px 25px 30px;
+
+    word-break: break-word;
+
+    color: #ffffff;
+    background-color: #ec9e03;
+
+    font-family: "SegoeWP", sans-serif;
+    font-size: 1.7em;
+    line-height: 38px;
+}
+
+.video__plus {
+    position: absolute;
+    right: 12px;
+    bottom: 11px;
+
+    font-size: 0.4em;
+}

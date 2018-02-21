@@ -1,25 +1,50 @@
-.section-about-us{
-  background: url(../../images/section-about-us/section-about-us-background.jpg) no-repeat;
-  background-size: cover;
+@font-face {
+    font-family: "SegoeWP";
+    font-weight: normal;
+    font-style: normal;
+
+    src: local("SegoeWP"), url("../../fonts/Segoe/SegoeWP.woff") format("woff");
+}
+@font-face {
+    font-family: "Asap Regular";
+    font-weight: normal;
+    font-style: normal;
+
+    src: local("Asap Regular"), url("../../fonts/Asap Regular/Asap Regular.otf") format("opentype");
 }
 
-.section-about-us__title{
-  flex-basis: 100%;
-  text-transform: uppercase;
+.section-about-us {
+    overflow: hidden;
+
+    padding: 17px 0 165px;
+
+    background: linear-gradient(31deg, rgba(247, 207, 50, 1) 23%, rgba(255, 255, 255, 0) 25%) 54px 39px, linear-gradient(30deg, rgba(255, 255, 255, 0) 75%, rgba(247, 207, 50, 1) 75%) 54px 76px, linear-gradient(31deg, rgba(255, 255, 255, 0) 70%, rgba(247, 207, 50, 1) 75%) -33px 20px, linear-gradient(31deg, rgba(247, 207, 50, 1) 24%, rgba(255, 255, 255, 0) 25%) 82px 20px;
+    background-color: #f7d445;
+    background-size: 58px 37px;
 }
 
-/* .section-about-us__item{
-  background-color: #ec9e03;
-  flex-basis: 340px;
-} */
+.section-about-us__title {
+    margin: 20px 0 39px;
 
-.section-about-us__video{
-  display: inline-flex;
-  flex-basis: 655px;
-  background-color: #ec9e03;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    color: #ffffff;
+
+    font-family: "Asap Regular", sans-serif;
+    font-size: 2.2em;
 }
 
-.section-about-us__social{
-  flex-basis: 350px;
-  background-color: #ec9e03;
+.section-about-us__video {
+    float: left;
+
+    box-sizing: border-box;
+    width: 64%;
+}
+
+.section-about-us__social {
+    float: right;
+
+    box-sizing: border-box;
+    width: 32%;
 }

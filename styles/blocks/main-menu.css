@@ -1,11 +1,37 @@
-.main-menu{
-  display: flex;
-  background-color: #f5c506;
+@font-face {
+    font-family: "Segoe WP N";
+    font-weight: normal;
+    font-style: normal;
+
+    src: local("Segoe WP N"), url("../../fonts/Segoe/SegoeWPN.woff") format("woff");
 }
 
-.main-menu__tab{
-	display: block;
-	padding: 15px;
-	text-decoration: none;
-  text-transform: uppercase;
+.main-menu {
+    background-color: #f5c506;
+    box-shadow: -4px -4px 0 rgba(245, 197, 6, 0.6), -8px -8px 0 rgba(245, 197, 6, 0.3);
+}
+
+.main-menu__tab {
+    float: left;
+
+    padding: 12px 20px;
+
+    border-left: 1px solid #dcb105;
+
+    font-size: 1.1em;
+}
+
+.main-menu__tab:first-child {
+    padding-left: 42px;
+
+    border-left: none;
+}
+
+.main-menu__tab-name {
+    text-transform: uppercase;
+
+    color: #a78708;
+
+    font-family: "Segoe WP N", sans-serif;
+    font-weight: 500;
 }
