@@ -16,7 +16,7 @@
 .section-about-us {
     overflow: hidden;
 
-    padding: 17px 0 165px;
+    padding: 1% 0 9%;
 
     background: linear-gradient(31deg, rgba(247, 207, 50, 1) 23%, rgba(255, 255, 255, 0) 25%) 54px 39px, linear-gradient(30deg, rgba(255, 255, 255, 0) 75%, rgba(247, 207, 50, 1) 75%) 54px 76px, linear-gradient(31deg, rgba(255, 255, 255, 0) 70%, rgba(247, 207, 50, 1) 75%) -33px 20px, linear-gradient(31deg, rgba(247, 207, 50, 1) 24%, rgba(255, 255, 255, 0) 25%) 82px 20px;
     background-color: #f7d445;
@@ -24,7 +24,7 @@
 }
 
 .section-about-us__title {
-    margin: 20px 0 39px;
+    margin: 2% 0 4%;
 
     letter-spacing: 1px;
     text-transform: uppercase;

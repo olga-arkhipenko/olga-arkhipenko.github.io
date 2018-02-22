@@ -35,3 +35,22 @@
     font-family: "Segoe WP N", sans-serif;
     font-weight: 500;
 }
+
+@media all and (max-width: 640px) {
+    .main-menu {
+        width: 70%;
+        box-shadow: none;
+    }
+
+    .main-menu__tab {
+        box-sizing: border-box;
+        height: 100%;
+        font-size: 1.1em;
+        /* width: 33.33%; */
+    }
+
+    .main-menu__tab:first-child {
+        padding-left: 20px;
+    }
+
+}

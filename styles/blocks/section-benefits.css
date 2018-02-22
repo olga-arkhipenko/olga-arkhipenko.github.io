@@ -16,7 +16,7 @@
 
 .section-benefits {
     box-sizing: border-box;
-    padding: 42px 0 78px;
+    padding: 2% 0 4%;
 
     background: linear-gradient(45deg, #4c4c4c 12%, transparent 0, transparent 88%, #4c4c4c 0),
     linear-gradient(135deg, transparent 37%, #4c4c4c 0, #474747 63%, transparent 0),
@@ -32,7 +32,7 @@
 }
 
 .section-benefits__title {
-    margin-bottom: 9px;
+    margin-bottom: 1%;
 
     text-align: center;
     word-spacing: 2px;
@@ -52,7 +52,7 @@
 .section-benefits__list {
     box-sizing: border-box;
     width: 34%;
-    padding-top: 88px;
+    padding: 3% 0;
 }
 
 @media all and (max-width: 320px) {
