@@ -1,11 +1,12 @@
-/* .container {
+.container {
     width: 1020px;
     margin: 0 auto;
-} */
+}
 
-@media all and (min-width: 1020px) {
+@media all and (max-width: 1020px) {
     .container {
-        width: 1020px;
-        margin: 0 auto;
+        padding: 0 10px;
+        box-sizing: border-box;
+        max-width: 100%;
     }
 }

@@ -47,3 +47,9 @@
     font-family: "SegoeWP", sans-serif;
     font-size: 1.7em;
 }
+
+@media all and (max-width: 1020px) {
+    .section-features .container {
+        padding: 0;
+    }
+}
