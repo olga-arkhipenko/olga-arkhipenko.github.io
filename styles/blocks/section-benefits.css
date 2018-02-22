@@ -45,6 +45,7 @@
 }
 
 .section-benefits__image {
+    width: 55%;
     height: 100%;
 }
 
@@ -52,4 +53,18 @@
     box-sizing: border-box;
     width: 34%;
     padding-top: 88px;
+}
+
+@media all and (max-width: 320px) {
+    .section-benefits__inner{
+        padding: 0 3%;
+    }
+
+    .section-benefits__image {
+        width: 100%;
+    }
+
+    .section-benefits__list {
+        display: none;
+    }
 }
