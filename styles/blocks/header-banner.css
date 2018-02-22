@@ -13,14 +13,17 @@
 .header-banner__player {
     float: left;
 
-    margin-left: 10px;
+    width: 54%;
+
+    margin-left: 1%;
 }
 
 .header-banner__title {
     float: left;
+    width: 40%;
 
     /* padding: 74px 0 0 50px; */
-    padding: 7% 0 0 5%;
+    margin: 7% 2% 3% 3%;
     box-sizing: border-box;
 
     text-align: center;
@@ -36,6 +39,22 @@
     word-spacing: 7px;
 
     color: #f5c506;
+}
+
+@media all and (max-width: 320px) {
+    .header-banner{
+        padding: 0;
+    }
+    
+    .header-banner__player {
+        float: none;
+        width: 100%;
+        margin: 0;
+    }
+
+    .header-banner__title {
+        display: none;
+    }
 }
 
 /* @media all and (max-width: 1024px) {
