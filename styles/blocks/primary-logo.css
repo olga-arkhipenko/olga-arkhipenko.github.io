@@ -82,8 +82,12 @@
     }
 }
 
-/* @media all and (max-width: 980px) {
-    .primary-logo__author {
+@media all and (max-width: 1020px) {
+    /* .primary-logo__author {
         display: none;
+    } */
+
+    .primary-logo__image {
+        
     }
-} */
+}
