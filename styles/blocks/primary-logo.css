@@ -75,15 +75,25 @@
         padding: 0 0 5px 2px;
         font-size: 1.1em;
     }
+}
+
+@media all and (max-width: 1020px) {
+    /* .primary-logo__author {
+        display: none;
+    } */
+
+    .primary-logo__image {
+
+    }
+}
+
+@media all and (max-width: 980px) {
+    .primary-logo__image {
+        width: 15%;
+    }
 
     .primary-logo__author {
         display: none;
 
     }
 }
-
-/* @media all and (max-width: 980px) {
-    .primary-logo__author {
-        display: none;
-    }
-} */

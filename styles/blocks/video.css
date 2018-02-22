@@ -9,9 +9,10 @@
 
 .video__description {
     position: relative;
-    width: 52%;
+    width: 51%;
 
-    padding: 17px 15px 25px 30px;
+    /* padding: 17px 15px 25px 30px; */
+    padding: 3% 5% 3.5%;
 
     word-break: break-word;
 
@@ -20,11 +21,11 @@
 
     font-family: "SegoeWP", sans-serif;
     font-size: 1.7em;
-    line-height: 38px;
+    line-height: 1.4em;
 }
 
 .video__player {
-    width: 48%;;
+    width: 49%;;
 }
 
 .video__plus {
