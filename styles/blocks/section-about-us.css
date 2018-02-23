@@ -52,18 +52,6 @@
 
 @media all and (max-width: 768px) {
     .section-about-us {
-        padding-bottom: 1%;
-    }
-
-    .section-about-us__social {
-        margin-top: 1%;
-        float: none;
-        width: 100%;
-    }
-}
-
-@media all and (max-width: 320px) {
-    .section-about-us {
         padding: 0;
         background: #ffffff;
     }
@@ -71,6 +59,15 @@
     .section-about-us__title {
         display: none;
     }
+
+    .section-about-us__social {
+        float: none;
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 320px) {
+
 }
 
 /* @media all and (max-width: 1048px) {

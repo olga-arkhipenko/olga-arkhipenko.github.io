@@ -55,7 +55,7 @@
     padding: 8% 0 0;
 }
 
-@media all and (max-width: 320px) {
+@media all and (max-width: 768px) {
     .section-benefits__inner{
         padding: 0 3%;
     }
@@ -67,4 +67,8 @@
     .section-benefits__list {
         display: none;
     }
+}
+
+@media all and (max-width: 320px) {
+
 }

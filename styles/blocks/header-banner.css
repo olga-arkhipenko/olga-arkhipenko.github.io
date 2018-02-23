@@ -41,7 +41,7 @@
     color: #f5c506;
 }
 
-@media all and (max-width: 320px) {
+@media all and (max-width: 768px) {
     .header-banner{
         padding: 0;
     }

@@ -15,7 +15,7 @@
 }
 
 .primary-logo {
-    flex: 1;
+    /* flex: 1; */
     color: #ffffff;
 }
 
@@ -61,20 +61,12 @@
 }
 
 @media all and (max-width: 640px) {
-    .primary-logo {
-        /* box-sizing: border-box; */
-        background-color: #5a5a5a;
-        text-align: center;
-    }
 
     .primary-logo__image {
         width: 20%;
     }
 
-    .primary-logo__name {
-        padding: 0 0 5px 2px;
-        font-size: 1.1em;
-    }
+
 }
 
 @media all and (max-width: 1020px) {
@@ -85,6 +77,19 @@
 
 @media all and (max-width: 980px) {
     .primary-logo__image {
-        width: 12%;
+        width: 20%;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .primary-logo {
+        /* box-sizing: border-box; */
+        background-color: #5a5a5a;
+        text-align: center;
+    }
+
+    .primary-logo__name {
+        font-size: 1.8em;
+        text-shadow: 1px 1px 1px #000000;
     }
 }

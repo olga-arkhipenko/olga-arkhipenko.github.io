@@ -44,7 +44,7 @@
         width: 100%;
     }
     .video__description {
-        display: none;
+        width: 100%;
     }
 
     .video__player {
