@@ -42,14 +42,6 @@
     justify-content: space-between;
 }
 
-.section-about-us__video {
-    /* float: left; */
-}
-
-.section-about-us__social {
-    /* float: right; */
-}
-
 @media all and (max-width: 768px) {
     .section-about-us {
         padding: 0;
@@ -68,26 +60,8 @@
     }
 }
 
-@media all and (max-width: 640px) {
-    .section-about-us {
-        font-size: 80%;
-    }
-}
-
-/* @media all and (max-width: 424px) {
-    .section-about-us {
-        font-size: 50%;
-    }
-} */
-
 @media all and (max-width: 320px) {
     .section-about-us__video {
-        width: 100%;
+        font-size: 90%;
     }
 }
-
-/* @media all and (max-width: 1048px) {
-    .section-about-us {
-        padding: 0 1%;
-    }
-} */

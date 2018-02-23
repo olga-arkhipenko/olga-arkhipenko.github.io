@@ -36,14 +36,9 @@
     font-weight: 500;
 }
 
-@media all and (max-width: 640px) {
-}
-
-
 @media all and (max-width: 768px) {
     .main-menu {
-        flex: 1;/* width: 70%; */
-        /* width: 100%; */
+        flex: 1;
 
         box-shadow: none;
     }
