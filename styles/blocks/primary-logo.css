@@ -30,7 +30,7 @@
 .primary-logo__name {
     display: inline-block;
 
-    padding: 0 0 16px 2px;
+    padding: 0 0 3% 1%;
 
     text-shadow: 1px 2px 2px #000000;
 
@@ -78,22 +78,13 @@
 }
 
 @media all and (max-width: 1020px) {
-    /* .primary-logo__author {
+    .primary-logo__author {
         display: none;
-    } */
-
-    .primary-logo__image {
-
     }
 }
 
 @media all and (max-width: 980px) {
     .primary-logo__image {
-        width: 15%;
-    }
-
-    .primary-logo__author {
-        display: none;
-
+        width: 12%;
     }
 }
