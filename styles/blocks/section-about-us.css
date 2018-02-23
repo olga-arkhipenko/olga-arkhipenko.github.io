@@ -66,8 +66,22 @@
     }
 }
 
-@media all and (max-width: 320px) {
+@media all and (max-width: 640px) {
+    .section-about-us {
+        font-size: 80%;
+    }
+}
 
+/* @media all and (max-width: 424px) {
+    .section-about-us {
+        font-size: 50%;
+    }
+} */
+
+@media all and (max-width: 320px) {
+    .section-about-us__video {
+        width: 100%;
+    }
 }
 
 /* @media all and (max-width: 1048px) {

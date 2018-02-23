@@ -1,7 +1,7 @@
 .video {
-    /* display: flex;
+    display: flex;
 
-    box-sizing: border-box; */
+    box-sizing: border-box;
     width: 64%;
 
     /* align-items: flex-start; */
@@ -27,8 +27,8 @@
 }
 
 .video__player {
-    float: right;
-    width: 49%;;
+    align-self: flex-start;
+    width: 49%;
 }
 
 .video__plus {
@@ -43,12 +43,22 @@
     .video {
         width: 100%;
     }
-    .video__description {
+    /* .video__description {
         width: 100%;
-    }
+    } */
 
-    .video__player {
+    /* .video__player {
         float: none;
         width: 100%;
+    } */
+}
+
+@media all and (max-width: 320px) {
+    .video {
+        margin: 2%;
+    }
+
+    .video__description {
+        margin-right: 2%;
     }
 }

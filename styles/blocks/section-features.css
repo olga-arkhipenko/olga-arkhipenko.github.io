@@ -38,7 +38,7 @@
 }
 
 .section-features__item-name {
-    margin: 17px 0 36px;
+    margin: 4% 0 12%;
 
     text-transform: uppercase;
 
@@ -51,5 +51,17 @@
 @media all and (max-width: 1020px) {
     .section-features .container {
         padding: 0;
+    }
+}
+
+@media all and (max-width: 640px) {
+    .section-features {
+        font-size: 80%;
+    }
+}
+
+@media all and (max-width: 424px) {
+    .section-features {
+        font-size: 50%;
     }
 }
