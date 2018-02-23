@@ -14,6 +14,7 @@
 
 @media all and (max-width: 768px) {
     .header-navigation {
+        /* font-size: 120%; */
         align-items: stretch;
         padding: 0;
     }

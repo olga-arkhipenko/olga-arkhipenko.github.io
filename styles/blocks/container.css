@@ -14,13 +14,25 @@
 
 @media all and (max-width: 980px) {
     .container {
-        font-size: 80%;
+        font-size: 90%;
     }
 }
 
 @media all and (max-width: 768px) {
     .container {
         padding: 0;
+        /* font-size: 70%; */
+    }
+}
+
+@media all and (max-width: 640px) {
+    .container {
         font-size: 70%;
+    }
+}
+
+@media all and (max-width: 425px) {
+    .container {
+        font-size: 40%;
     }
 }

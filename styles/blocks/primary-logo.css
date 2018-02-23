@@ -20,17 +20,22 @@
 }
 
 .primary-logo__link {
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
 }
 
 .primary-logo__image {
-    vertical-align: bottom;
+    /* vertical-align: bottom; */
 }
 
 .primary-logo__name {
-    display: inline-block;
+    /* display: inline-block;
 
-    padding: 0 0 3% 1%;
+    padding: 0 0 3% 1%; */
+
+    padding: 2% 0 0 1%;
 
     text-shadow: 1px 2px 2px #000000;
 
@@ -76,6 +81,10 @@
 }
 
 @media all and (max-width: 980px) {
+    /* .primary-logo {
+        width: 30%;
+    } */
+
     .primary-logo__image {
         width: 20%;
     }
@@ -85,11 +94,21 @@
     .primary-logo {
         /* box-sizing: border-box; */
         background-color: #5a5a5a;
-        text-align: center;
     }
 
     .primary-logo__name {
         font-size: 1.8em;
         text-shadow: 1px 1px 1px #000000;
+    }
+}
+
+@media all and (max-width: 425px) {
+    .primary-logo__name {
+        /* padding: 0; */
+    }
+
+    .primary-logo__image {
+        /* vertical-align: middle; */
+        width: 15%;
     }
 }
