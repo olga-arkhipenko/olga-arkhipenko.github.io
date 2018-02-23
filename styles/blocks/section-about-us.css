@@ -14,7 +14,6 @@
 }
 
 .section-about-us {
-
     padding: 1% 0 9%;
 
     background: linear-gradient(31deg, rgba(247, 207, 50, 1) 23%, rgba(255, 255, 255, 0) 25%) 54px 39px, linear-gradient(30deg, rgba(255, 255, 255, 0) 75%, rgba(247, 207, 50, 1) 75%) 54px 76px, linear-gradient(31deg, rgba(255, 255, 255, 0) 70%, rgba(247, 207, 50, 1) 75%) -33px 20px, linear-gradient(31deg, rgba(247, 207, 50, 1) 24%, rgba(255, 255, 255, 0) 25%) 82px 20px;
@@ -37,9 +36,10 @@
 .section-about-us__inner {
     display: flex;
     flex-direction: row;
+
     align-items: flex-start;
-    justify-content: space-between;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .section-about-us__video {
@@ -53,6 +53,7 @@
 @media all and (max-width: 768px) {
     .section-about-us {
         padding: 0;
+
         background: #ffffff;
     }
 
@@ -62,6 +63,7 @@
 
     .section-about-us__social {
         float: none;
+
         width: 100%;
     }
 }

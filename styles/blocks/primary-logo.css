@@ -20,9 +20,11 @@
 
 .primary-logo__link {
     display: flex;
+
+    height: 100%;
+
     align-items: center;
     justify-content: center;
-    height: 100%;
 }
 
 .primary-logo__name {
@@ -44,7 +46,6 @@
 }
 
 .primary-logo--small .primary-logo__name {
-
     letter-spacing: 3px;
 
     font-size: 1.8em;
@@ -73,16 +74,17 @@
 
 @media all and (max-width: 768px) {
     .primary-logo {
-        background-color: #5a5a5a;
+        background: linear-gradient(#5a5a5a, #444444);
     }
 
     .primary-logo--small {
-        background-color: inherit;
+        background: inherit;
     }
 
     .primary-logo__name {
-        font-size: 1.5em;
         text-shadow: 1px 1px 1px #000000;
+
+        font-size: 1.5em;
     }
 }
 

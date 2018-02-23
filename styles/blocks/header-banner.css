@@ -14,17 +14,16 @@
     float: left;
 
     width: 54%;
-
     margin-left: 1%;
 }
 
 .header-banner__title {
     float: left;
-    width: 40%;
 
+    box-sizing: border-box;
+    width: 40%;
     /* padding: 74px 0 0 50px; */
     margin: 7% 2% 3% 3%;
-    box-sizing: border-box;
 
     text-align: center;
 
@@ -42,12 +41,15 @@
 }
 
 @media all and (max-width: 768px) {
-    .header-banner{
+    .header-banner {
         padding: 0;
+
+        background-color: #ffffff;
     }
 
     .header-banner__player {
         float: none;
+
         width: 100%;
         margin: 0;
     }

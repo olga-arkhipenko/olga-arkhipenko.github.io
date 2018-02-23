@@ -8,12 +8,12 @@
 }
 
 .video__description {
-    display: inline-block;
     position: relative;
-    width: 51%;
-    box-sizing: border-box;
 
-    /* padding: 17px 15px 25px 30px; */
+    display: inline-block;
+
+    box-sizing: border-box;
+    width: 51%;/* padding: 17px 15px 25px 30px; */
     padding: 3% 5% 4%;
 
     word-break: break-word;
@@ -27,8 +27,9 @@
 }
 
 .video__player {
-    align-self: flex-start;
     width: 49%;
+
+    align-self: flex-start;
 }
 
 .video__plus {

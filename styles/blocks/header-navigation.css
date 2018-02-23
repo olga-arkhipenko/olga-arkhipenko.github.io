@@ -10,8 +10,9 @@
 
 @media all and (max-width: 768px) {
     .header-navigation {
-        align-items: stretch;
         padding: 0;
+
+        align-items: stretch;
     }
 }
 
@@ -23,6 +24,6 @@
 
 @media all and (max-width: 424px) {
     .header-navigation {
-        font-size: 50%;
+        font-size: 70%;
     }
 }
