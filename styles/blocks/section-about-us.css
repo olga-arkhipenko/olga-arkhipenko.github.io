@@ -14,7 +14,6 @@
 }
 
 .section-about-us {
-    overflow: hidden;
 
     padding: 1% 0 9%;
 
@@ -52,12 +51,12 @@
 }
 
 @media all and (max-width: 768px) {
-    .section-about-us__video {
-        /* float: none; */
-        width: 100%;
+    .section-about-us {
+        padding-bottom: 1%;
     }
 
     .section-about-us__social {
+        margin-top: 1%;
         float: none;
         width: 100%;
     }

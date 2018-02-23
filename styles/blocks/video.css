@@ -38,3 +38,17 @@
 
     font-size: 0.4em;
 }
+
+@media all and (max-width: 768px) {
+    .video {
+        width: 100%;
+    }
+    .video__description {
+        display: none;
+    }
+
+    .video__player {
+        float: none;
+        width: 100%;
+    }
+}
