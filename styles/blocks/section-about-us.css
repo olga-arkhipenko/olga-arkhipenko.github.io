@@ -35,17 +35,25 @@
     font-size: 2.2em;
 }
 
+.section-about-us__inner {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
 .section-about-us__video {
-    float: left;
+    /* float: left; */
 }
 
 .section-about-us__social {
-    float: right;
+    /* float: right; */
 }
 
 @media all and (max-width: 768px) {
     .section-about-us__video {
-        float: none;
+        /* float: none; */
         width: 100%;
     }
 
