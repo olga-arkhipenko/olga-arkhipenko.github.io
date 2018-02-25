@@ -3,8 +3,6 @@
 
     box-sizing: border-box;
     width: 64%;
-
-    /* align-items: flex-start; */
 }
 
 .video__description {
@@ -13,10 +11,10 @@
     display: inline-block;
 
     box-sizing: border-box;
-    width: 51%;    /* padding: 17px 15px 25px 30px; */
+    width: 51%;
     padding: 3% 5% 4%;
 
-    word-break: break-word;
+    hyphens: auto;
 
     color: #ffffff;
     background-color: #ec9e03;
