@@ -16,7 +16,8 @@
 
 .section-benefits {
     box-sizing: border-box;
-    padding: 2% 0 4%;
+    padding: 42px 0 78px;
+    /* padding: 2% 0 4%; */
 
     background: linear-gradient(45deg, #4c4c4c 12%, transparent 0, transparent 88%, #4c4c4c 0),
     linear-gradient(135deg, transparent 37%, #4c4c4c 0, #474747 63%, transparent 0),
@@ -52,19 +53,36 @@
 .section-benefits__list {
     box-sizing: border-box;
     width: 34%;
-    padding: 8% 0 0;
+    padding: 5.6em 0 0;
 }
 
 @media all and (max-width: 768px) {
-    .section-benefits__inner {
-        padding: 0 3%;
+    .section-benefits {
+        padding: 20px 0 36px;
+    }
+
+    .section-benefits__title {
+        margin-bottom: 20px;
     }
 
     .section-benefits__image {
-        width: 100%;
+        width: 90%;
+        margin: 0 auto;
     }
 
     .section-benefits__list {
         display: none;
+    }
+}
+
+@media all and (max-width: 640px ) {
+    .section-benefits {
+        font-size: 70%;
+    }
+}
+
+@media all and (max-width: 480px) {
+    .section-benefits {
+        font-size: 50%;
     }
 }
