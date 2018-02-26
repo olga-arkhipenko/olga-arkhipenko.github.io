@@ -38,17 +38,18 @@
 
 @media all and (max-width: 768px) {
     .main-menu {
-        font-size: 70%;
         flex: 1;
 
         box-shadow: none;
+
+        font-size: 70%;
     }
 
     .main-menu__tab {
         box-sizing: border-box;
-        padding: 4% 0;
         width: 33.33%;
         height: 100%;
+        padding: 4% 0;
 
         text-align: center;
 

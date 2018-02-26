@@ -1,9 +1,7 @@
 .social {
     position: relative;
 
-    box-sizing: border-box;
-
-    /* padding: 60px 14px 38px 14px; */
+    box-sizing: border-box;/* padding: 60px 14px 38px 14px; */
     padding: 2em 2em 1.7em;
 
     text-align: center;
@@ -25,7 +23,6 @@
 
 .social__twitter {
     text-align: center;
-
 
     font-size: 5em;
 }

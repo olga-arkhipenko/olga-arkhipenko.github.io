@@ -56,19 +56,22 @@
 
 @media all and (max-width: 768px) {
     .section-features {
-        font-size: 80%;
         box-shadow: 0 -4px 0 0 rgba(255, 255, 255, 0.6), 0 -6px 0 0 rgba(255, 255, 255, 0.3);
+
+        font-size: 80%;
     }
 }
 
 @media all and (max-width: 640px) {
     .section-features {
-        font-size: 70%;
         box-shadow: none;
+
+        font-size: 70%;
     }
 
     .section-features__item {
         padding-top: 20px;
+
         border: none;
     }
 
