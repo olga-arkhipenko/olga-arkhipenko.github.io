@@ -24,13 +24,11 @@
     height: 100%;
 
     align-items: center;
-    justify-content: center;
 }
 
 .primary-logo__name {
-    padding: 2% 0 0 1%;
-
     text-shadow: 1px 2px 2px #000000;
+    padding: 8px 0 0 4px;
 
     font-family: "Lucida Sans Italic", sans-serif;
     font-size: 2.5em;
@@ -64,7 +62,7 @@
 
 @media all and (max-width: 980px) {
     .primary-logo {
-        width: 30%;
+        font-size: 90%;
     }
 
     .primary-logo__image {
@@ -77,24 +75,36 @@
         background: linear-gradient(#5a5a5a, #444444);
     }
 
+    .primary-logo__link {
+        justify-content: center;
+    }
+
     .primary-logo--small {
         background: inherit;
     }
 
     .primary-logo__name {
         text-shadow: 1px 1px 1px #000000;
-
+        padding: 4px 0 0 2px;
         font-size: 1.5em;
     }
 }
 
 @media all and (max-width: 640px) {
+    .primary-logo {
+        font-size: 70%;
+    }
+
     .primary-logo__image {
         width: 20%;
     }
 }
 
 @media all and (max-width: 425px) {
+    .primary-logo {
+        font-size: 50%;
+    }
+
     .primary-logo__image {
         width: 15%;
     }
