@@ -60,7 +60,7 @@
     }
 }
 
-@media all and (max-width: 320px) {
+@media all and (max-width: 450px) {
     .section-about-us__video {
         font-size: 90%;
     }
