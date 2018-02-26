@@ -38,6 +38,7 @@
 
 @media all and (max-width: 768px) {
     .main-menu {
+        font-size: 70%;
         flex: 1;
 
         box-shadow: none;
@@ -45,9 +46,9 @@
 
     .main-menu__tab {
         box-sizing: border-box;
+        padding: 4% 0;
         width: 33.33%;
         height: 100%;
-        padding: 4% 0;
 
         text-align: center;
 
@@ -56,5 +57,17 @@
 
     .main-menu__tab:first-child {
         padding-left: 0;
+    }
+}
+
+@media all and (max-width: 640px) {
+    .main-menu {
+        font-size: 70%;
+    }
+}
+
+@media all and (max-width: 425px) {
+    .main-menu {
+        font-size: 50%;
     }
 }
