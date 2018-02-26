@@ -21,7 +21,7 @@
     font-size: 1.1em;
 }
 
-.main-menu__tab:first-child {
+.main-menu__tab--long {
     padding-left: 42px;
 
     border-left: none;
@@ -55,7 +55,7 @@
         font-size: 1.3em;
     }
 
-    .main-menu__tab:first-child {
+    .main-menu__tab--long {
         padding-left: 0;
     }
 }
