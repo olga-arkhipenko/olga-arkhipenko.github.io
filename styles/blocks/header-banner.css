@@ -7,7 +7,7 @@
 }
 
 .header-banner {
-    padding: 2% 0 7%;
+    padding: 26px 0 70px;
 }
 
 .header-banner__player {
@@ -37,6 +37,12 @@
     word-spacing: 7px;
 
     color: #f5c506;
+}
+
+@media all and (max-width: 980px) {
+    .header-banner {
+        font-size: 80%;
+    }
 }
 
 @media all and (max-width: 768px) {
