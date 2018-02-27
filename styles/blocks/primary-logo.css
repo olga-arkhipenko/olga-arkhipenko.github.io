@@ -101,6 +101,10 @@
     .primary-logo__image {
         width: 20%;
     }
+
+    .primary-logo--small .primary-logo__image {
+        width: 15%;
+    }
 }
 
 @media all and (max-width: 425px) {
@@ -110,5 +114,9 @@
 
     .primary-logo__image {
         width: 15%;
+    }
+
+    .primary-logo--small .primary-logo__image {
+        width: 10%;
     }
 }
