@@ -21,7 +21,7 @@
     font-size: 1.1em;
 }
 
-.main-menu__tab:first-child {
+.main-menu__tab--long {
     padding-left: 42px;
 
     border-left: none;
@@ -34,4 +34,41 @@
 
     font-family: "Segoe WP N", sans-serif;
     font-weight: 500;
+}
+
+@media all and (max-width: 768px) {
+    .main-menu {
+        flex: 1;
+
+        box-shadow: none;
+
+        font-size: 70%;
+    }
+
+    .main-menu__tab {
+        box-sizing: border-box;
+        width: 33.33%;
+        height: 100%;
+        padding: 4% 0;
+
+        text-align: center;
+
+        font-size: 1.3em;
+    }
+
+    .main-menu__tab--long {
+        padding-left: 0;
+    }
+}
+
+@media all and (max-width: 640px) {
+    .main-menu {
+        font-size: 70%;
+    }
+}
+
+@media all and (max-width: 425px) {
+    .main-menu {
+        font-size: 50%;
+    }
 }

@@ -10,3 +10,15 @@
 .footer__logo {
     display: inline-block;
 }
+
+@media all and (max-width: 640px) {
+    .footer {
+        font-size: 80%;
+    }
+}
+
+@media all and (max-width: 425px) {
+    .footer {
+        padding: 4px 0 6px;
+    }
+}

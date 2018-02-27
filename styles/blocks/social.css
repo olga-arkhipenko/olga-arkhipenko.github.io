@@ -1,9 +1,8 @@
 .social {
     position: relative;
 
-    box-sizing: border-box;
-    width: 32%;
-    padding: 60px 0 37px;
+    box-sizing: border-box;/* padding: 60px 14px 38px 14px; */
+    padding: 2em 2em 1.7em;
 
     text-align: center;
 
@@ -34,4 +33,23 @@
     bottom: 12px;
 
     font-size: 0.4em;
+}
+
+@media all and (max-width: 768px) {
+    .social {
+        background-color: #f5c507;
+    }
+
+    .social__twitter {
+        color: #c28401;
+    }
+}
+
+@media all and (max-width: 320px) {
+    .social__counter {
+        display: none;
+    }
+    .social__plus {
+        display: none;
+    }
 }

@@ -19,17 +19,15 @@
 }
 
 .primary-logo__link {
-    display: block;
-}
+    display: flex;
 
-.primary-logo__image {
-    vertical-align: bottom;
+    height: 100%;
+
+    align-items: center;
 }
 
 .primary-logo__name {
-    display: inline-block;
-
-    padding: 0 0 16px 2px;
+    padding: 8px 0 0 4px;
 
     text-shadow: 1px 2px 2px #000000;
 
@@ -47,8 +45,6 @@
 }
 
 .primary-logo--small .primary-logo__name {
-    padding: 0 0 8px;
-
     letter-spacing: 3px;
 
     font-size: 1.8em;
@@ -57,4 +53,70 @@
 
 .primary-logo--small .primary-logo__image {
     width: 20%;
+}
+
+@media all and (max-width: 1020px) {
+    .primary-logo__author {
+        display: none;
+    }
+}
+
+@media all and (max-width: 980px) {
+    .primary-logo {
+        font-size: 90%;
+    }
+
+    .primary-logo__image {
+        width: 20%;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .primary-logo {
+        background: linear-gradient(#5a5a5a, #444444);
+    }
+
+    .primary-logo__link {
+        justify-content: center;
+    }
+
+    .primary-logo--small {
+        background: inherit;
+    }
+
+    .primary-logo__name {
+        padding: 4px 0 0 2px;
+
+        text-shadow: 1px 1px 1px #000000;
+
+        font-size: 1.5em;
+    }
+}
+
+@media all and (max-width: 640px) {
+    .primary-logo {
+        font-size: 70%;
+    }
+
+    .primary-logo__image {
+        width: 20%;
+    }
+
+    .primary-logo--small .primary-logo__image {
+        width: 15%;
+    }
+}
+
+@media all and (max-width: 425px) {
+    .primary-logo {
+        font-size: 50%;
+    }
+
+    .primary-logo__image {
+        width: 15%;
+    }
+
+    .primary-logo--small .primary-logo__image {
+        width: 10%;
+    }
 }

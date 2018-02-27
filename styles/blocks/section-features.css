@@ -9,8 +9,8 @@
 .section-features {
     position: relative;
 
-    background: linear-gradient(45deg, rgba(255,255,255,0.2) 25%, rgba(0,0,0,0) 25%, rgba(0,0,0,0) 50%, rgba(255,255,255,0.2) 50%, rgba(255,255,255,0.2) 75%, rgba(0,0,0,0) 75%, rgba(0,0,0,0) 0), rgba(242,242,242,0.7);
     background-color: #f2f2f2;
+    background-image: repeating-linear-gradient(45deg, transparent, transparent 5px, rgba(255,255,255,0.2) 7px, rgba(255,255,255,0.2) 10px);
     background-size: 12px 12px;
     box-shadow: 0 1px 4px #ad9225, 0 -1px 4px #46361b;
 }
@@ -25,7 +25,7 @@
     display: table-cell;
 
     width: 33.33%;
-    padding-top: 4%;
+    padding-top: 40px;
 
     text-align: center;
     vertical-align: bottom;
@@ -46,4 +46,49 @@
 
     font-family: "SegoeWP", sans-serif;
     font-size: 1.7em;
+}
+
+@media all and (max-width: 1020px) {
+    .section-features .container {
+        padding: 0;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .section-features {
+        box-shadow: 0 -4px 0 0 rgba(255, 255, 255, 0.6), 0 -6px 0 0 rgba(255, 255, 255, 0.3);
+
+        font-size: 80%;
+    }
+}
+
+@media all and (max-width: 640px) {
+    .section-features {
+        box-shadow: none;
+
+        font-size: 70%;
+    }
+
+    .section-features__item {
+        padding-top: 20px;
+
+        border: none;
+    }
+
+    .section-features__item-name {
+        margin: 10px 0 25px;
+    }
+}
+
+@media all and (max-width: 425px) {
+    .section-features {
+        font-size: 50%;
+    }
+    .section-features__item {
+        padding-top: 10px;
+    }
+
+    .section-features__item-name {
+        margin: 8px 0 10px;
+    }
 }

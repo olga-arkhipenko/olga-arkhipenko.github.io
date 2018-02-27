@@ -7,3 +7,17 @@
     align-items: flex-end;
     justify-content: space-between;
 }
+
+@media all and (max-width: 980px) {
+    .header-navigation__primary-logo {
+        width: 30%;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .header-navigation {
+        padding: 0;
+
+        align-items: stretch;
+    }
+}

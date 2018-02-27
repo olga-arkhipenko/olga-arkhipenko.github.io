@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./styles/reset/reset.css">
     <link rel="stylesheet" href="./styles/blocks/container.css">
-    <link rel="stylesheet" href="./styles/blocks/link.css">
-    <link rel="stylesheet" href="./styles/blocks/clearfix.css">
+    <link rel="stylesheet" href="./styles/utils/link.css">
+    <link rel="stylesheet" href="./styles/utils/clearfix.css">
     <link rel="stylesheet" href="./styles/blocks/video.css">
     <link rel="stylesheet" href="./styles/blocks/social.css">
     <link rel="stylesheet" href="./styles/blocks/list.css">
@@ -27,14 +27,14 @@
     <header class="header">
         <div class="container">
             <div class="header-navigation">
-                <div class="primary-logo">
+                <div class="primary-logo header-navigation__primary-logo">
                     <a href="#" class="link primary-logo__link">
                         <img src="./images/primary-logo.png" alt="THEYALOW logo" class="primary-logo__image">
                         <p class="primary-logo__name">THEYALOW<span class="primary-logo__author">Craft By Css author.com</span></p>
                     </a>
                 </div>
                 <nav class="main-menu">
-                    <a href="#" class="main-menu__tab link">
+                    <a href="#" class="main-menu__tab main-menu__tab--long link">
                         <span class="icon-about-us"></span>
                         <span class="main-menu__tab-name">about us</span>
                     </a>
@@ -49,7 +49,7 @@
                 </nav>
             </div>
             <div class="header-banner clearfix">
-                    <video class="header-banner__player" src="#" autoplay controls class="video-player" poster="./images/header/banner-video-poster.jpg">
+                    <video class="header-banner__player" src="#" autoplay  class="video-player" poster="./images/header/banner-video-poster.jpg">
                         Sorry, video-player is nor supported by your browser.
                     </video>
                 <p class="header-banner__title"><span class="header-banner__title--primary">THE COOL</span><br>THE MINIMAL</p>
@@ -76,21 +76,23 @@
             </div>
         </section>
         <section class="section-about-us">
-            <div class="container clearfix">
+            <div class="container">
                 <h3 class="section-about-us__title">Lorem ipsum dolor sit amet</h3>
-                <div class="video section-about-us__video">
-                    <p class="video__description">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                        <span class="video__plus icon-plus"></span>
-                    </p>
-                    <video src="#" autoplay controls poster="./images/section-about-us/about-us-video-poster.jpg">
-                        Sorry, video-player is nor supported by your browser.
-                    </video>
-                </div>
-                <div class="social section-about-us__social">
-                    <p class="social__counter">22</p>
-                    <p class="social__twitter icon-twitter"></p>
-                    <span class="social__plus icon-plus"></span>
+                <div class="section-about-us__inner">
+                    <div class="video section-about-us__video">
+                        <p class="video__description">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                            <span class="video__plus icon-plus"></span>
+                        </p>
+                        <video class="video__player" src="#" autoplay poster="./images/section-about-us/about-us-video-poster.jpg">
+                            Sorry, video-player is nor supported by your browser.
+                        </video>
+                    </div>
+                    <div class="social section-about-us__social">
+                        <p class="social__counter">22</p>
+                        <p class="social__twitter icon-twitter"></p>
+                        <span class="social__plus icon-plus"></span>
+                    </div>
                 </div>
             </div>
         </section>

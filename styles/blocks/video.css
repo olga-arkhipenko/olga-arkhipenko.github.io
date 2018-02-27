@@ -2,24 +2,31 @@
     display: flex;
 
     box-sizing: border-box;
-    width: 64%;
-
-    align-items: flex-start;
 }
 
 .video__description {
     position: relative;
 
-    padding: 17px 15px 25px 30px;
+    display: inline-block;
 
-    word-break: break-word;
+    box-sizing: border-box;
+    width: 51%;
+    padding: 15px 32px 8px;
+
+    overflow-wrap: break-word;
 
     color: #ffffff;
     background-color: #ec9e03;
 
     font-family: "SegoeWP", sans-serif;
     font-size: 1.7em;
-    line-height: 38px;
+    line-height: 1.4em;
+}
+
+.video__player {
+    width: 49%;
+
+    align-self: flex-start;
 }
 
 .video__plus {
@@ -28,4 +35,27 @@
     bottom: 11px;
 
     font-size: 0.4em;
+}
+
+@media all and (max-width: 768px) {
+    .video {
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 425px) {
+    .video__description {
+        padding: 10px 16px 8px;
+    }
+}
+
+
+@media all and (max-width: 320px) {
+    .video {
+        margin: 10px;
+    }
+
+    .video__description {
+        margin-right: 10px;
+    }
 }

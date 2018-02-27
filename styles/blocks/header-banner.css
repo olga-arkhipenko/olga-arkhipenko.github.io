@@ -7,21 +7,22 @@
 }
 
 .header-banner {
-    padding: 25px 0 73px;
+    padding: 26px 0 70px;
 }
 
 .header-banner__player {
     float: left;
 
-    margin-left: 10px;
-
-    vertical-align: middle;
+    width: 54%;
+    margin-left: 1%;
 }
 
 .header-banner__title {
     float: left;
 
-    margin: 74px 0 0 50px;
+    box-sizing: border-box;
+    width: 40%;
+    margin: 7% 2% 3% 3%;
 
     text-align: center;
 
@@ -36,4 +37,29 @@
     word-spacing: 7px;
 
     color: #f5c506;
+}
+
+@media all and (max-width: 980px) {
+    .header-banner {
+        font-size: 75%;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .header-banner {
+        padding: 0;
+
+        background-color: #ffffff;
+    }
+
+    .header-banner__player {
+        float: none;
+
+        width: 100%;
+        margin: 0;
+    }
+
+    .header-banner__title {
+        display: none;
+    }
 }
