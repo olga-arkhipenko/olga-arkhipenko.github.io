@@ -14,7 +14,7 @@
     width: 51%;
     padding: 15px 32px 8px;
 
-    hyphens: auto;
+    overflow-wrap: break-word;
 
     color: #ffffff;
     background-color: #ec9e03;

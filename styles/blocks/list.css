@@ -1,5 +1,5 @@
 .list {
-    hyphens: auto;
+    overflow-wrap: break-word;
 
     line-height: 1.7em;
 }
